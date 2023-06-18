@@ -1,0 +1,193 @@
+{
+  "title": "小米路由器 - 软件中心",
+  "content": "0",
+  "box": [
+    {
+      "ID": 1,
+      "name": "adguard",
+      "title": "广告拦截",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "AdGuard 是一种快速、轻量级的广告拦截浏览器扩展程序，可有效拦截所有类型的广告和跟踪器。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 2,
+      "name": "alist",
+      "title": "网盘管理工具",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "AList 是一个支持多种存储，支持网页浏览和 WebDAV 的文件列表程序。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 3,
+      "name": "aria2",
+      "title": "下载工具",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "Aria2 是一个多平台轻量级，支持 HTTP、FTP、BitTorrent 等多协议、多来源的命令行下载工具。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 4,
+      "name": "clash",
+      "title": "网络工具",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "Clash是一款开源的基于 Clash 的 GUI 前端程序,它可以为用户提供更简单直观的管理方式和更丰富的功能。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 5,
+      "name": "docker",
+      "title": "容器引擎",
+      "version": "0.0.0",
+      "model": "@ax9000",
+      "class": "user",
+      "content": "Docker 是一个开源的应用容器引擎，让开发者可以打包应用以及依赖包到一个可移植的容器中，也可以实现虚拟化。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 6,
+      "name": "kodbox",
+      "title": "可道云",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "kodbox是业内领先的私有云和在线文档管理系统,为个人网站、企业私有云部署、网络存储、在线文档管理、在线办公等...",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 7,
+      "name": "netdata",
+      "title": "系统性能监控",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "Netdata是一款实时性能监测工具,以web的可视化方式展示系统及应用程序的实时运行状态。前端响应快,UI很整洁,操作方面。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 8,
+      "name": "rclone",
+      "title": "远程网盘同步",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "clone 是一个用于和同步云平台同步文件和目录工具。它允许在文件系统和云存储服务之间或在多个云存储服务之间访问和同步文件。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 9,
+      "name": "rtty",
+      "title": "网页Shell服务端",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "Rtty - 在任何地方通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 10,
+      "name": "rttys",
+      "title": "网页Shell客户端",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "Rttys - 在任何地方通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 11,
+      "name": "skadi",
+      "title": "微信控制路由器",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "Skadi 是一个用API发微信通知或用微信控制你的路由器，一个微信和服务器双向通讯的方案。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 12,
+      "name": "vsftp",
+      "title": "共享文件",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "VSFTP 是一个FTP服务器软件,它的全称是Very Secure FTP,从名称定义上基本可以看出,这是为了解决ftp传输安全性问题的。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 13,
+      "name": "webdev",
+      "title": "共享文件",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "Webdev 是基于Web的分布式编写和版本控制(WebDAV)是超文本传输协议(HTTP)的扩展,适合用户间管理存储在万维网服务器文档。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 14,
+      "name": "whistle",
+      "title": "抓包工具",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "Whistle 是基于 Node.js 实现的跨平台 Web 抓包调试（HTTP）代理，主要功能,实时抓包,修改请求响应,扩展功能：支持通过 Node 编写插件。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 15,
+      "name": "wxserver",
+      "title": "微信通知服务",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "WxServer(微信推送服务)是一个使用微信公众号作为通道的，实时信息推送平台，你可以通过调用API的方式，把信息推送到微信上。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 16,
+      "name": "zerotier",
+      "title": "内网穿透",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "ZeroTier(局域网搭建工具)通过ZeroTier One用户无需再同一个区域下就能搭建局域网访问功能，利用软件实现在公司控制家中电脑的目的。",
+      "sha": "",
+      "download": "x"
+    },
+    {
+      "ID": 17,
+      "name": "",
+      "title": "配置备份工具",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "sys",
+      "content": "这是一个小米路由器的可以快速备份配置，恢复配置小插件，让数据不再丢失，非常适合经常刷机的人。",
+      "sha": "",
+      "download": "x"
+    }
+  ]
+}
