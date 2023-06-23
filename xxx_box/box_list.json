@@ -125,7 +125,7 @@
     },
     {
       "ID": 12,
-      "name": "vsftp",
+      "name": "vsftpd",
       "title": "共享文件",
       "version": "0.0.0",
       "model": "@7000,@ax9000",
