@@ -3,6 +3,7 @@
   "content": "0",
   "rom_version": "2.1",
   "rom_version_info": "新版本：$version\n更新内容:\n修复若干BUG。",
+  "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main"
   "box": [
     {
       "ID": 1,
