@@ -36,7 +36,7 @@
       "class": "user",
       "content": "Aria2 是一个多平台轻量级，支持 HTTP、FTP、BitTorrent 等多协议、多来源的命令行下载工具。",
       "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/aria2.tar?ref=main"
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/aria2c.tar?ref=main"
     },
     {
       "ID": 4,
