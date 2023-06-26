@@ -29,7 +29,7 @@
     },
     {
       "ID": 3,
-      "name": "aria2",
+      "name": "aria2c",
       "title": "下载工具",
       "version": "0.0.0",
       "model": "@7000,@ax9000",
