@@ -45,7 +45,7 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "Clash是一款开源的基于 Clash 的 GUI 前端程序,它可以为用户提供更简单直观的管理方式和更丰富的功能。",
+      "content": "Clash是一款开源的基于 Clash 的 GUI 前端程序,为互联网服务。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/clash.tar?ref=main"
     },
@@ -56,7 +56,7 @@
       "version": "0.0.0",
       "model": "@ax9000",
       "class": "user",
-      "content": "Docker 是一个开源的应用容器引擎，让开发者可以打包应用以及依赖包到一个可移植的容器中，也可以实现虚拟化。",
+      "content": "Docker 是应用容器引擎，让开发者可以打包应用以及依赖包到一个可移植的容器中，也可以实现虚拟化。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/docker.tar?ref=main"
     },
@@ -67,7 +67,7 @@
       "version": "0.0.0",
       "model": "",
       "class": "user",
-      "content": "kodbox是业内领先的私有云和在线文档管理系统,为个人网站、企业私有云部署、网络存储、在线文档管理、在线办公等...",
+      "content": "kodbox是业内领先的私有云和文档管理系统,为个人网站、企业私有云部署、网络存储、在线管理、在线办公等...",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/kodbox.tar?ref=main"
     },
@@ -89,7 +89,7 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "clone 是一个用于和同步云平台同步文件和目录工具。它允许在文件系统和云存储服务之间或在多个云存储服务之间访问和同步文件。",
+      "content": "clone 是一个用于和同步云平台同步文件和目录工具。它允许在文件系统和云存储服务之间或云存储之间访问和同步文件。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/rclone.tar?ref=main"
     },
@@ -100,7 +100,7 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "Rtty - 在任何地方通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
+      "content": "Rtty - 通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/rtty.tar?ref=main"
     },
@@ -111,7 +111,7 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "Rttys - 在任何地方通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
+      "content": "Rttys - 通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/rttys.tar?ref=main"
     },
@@ -133,7 +133,7 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "VSFTP 是一个FTP服务器软件,它的全称是Very Secure FTP,从名称定义上基本可以看出,这是为了解决ftp传输安全性问题的。",
+      "content": "VSFTP 是一个FTP服务器软件,主要用于传输文件时使用。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/vsftp.tar?ref=main"
     },
@@ -144,7 +144,7 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "Webdev 是基于Web的分布式编写和版本控制(WebDAV)是超文本传输协议(HTTP)的扩展,适合用户间管理存储在万维网服务器文档。",
+      "content": "Webdev 是超文本传输协议(HTTP)的扩展,适合用户间管理存储在万维网服务器文档。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/webdev.tar?ref=main"
     },
@@ -155,7 +155,7 @@
       "version": "0.0.0",
       "model": "",
       "class": "user",
-      "content": "Whistle 是基于 Node.js 实现的跨平台 Web 抓包调试（HTTP）代理，主要功能,实时抓包,修改请求响应,扩展功能：支持通过 Node 编写插件。",
+      "content": "Whistle 是基于 Node.js 实现的跨平台 Web 抓包调试（HTTP）代理，主要功能,实时抓包,修改请求。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/whistle.tar?ref=main"
     },
@@ -166,7 +166,7 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "WxServer(微信推送服务)是一个使用微信公众号作为通道的，实时信息推送平台，你可以通过调用API的方式，把信息推送到微信上。",
+      "content": "WxServer(微信推送服务)是一个使用微信公众号实时信息推送平台，你可以通过调用API的方式，把信息推送到微信上。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/wxserver.tar?ref=main"
     },
@@ -177,7 +177,7 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "ZeroTier(局域网搭建工具)通过ZeroTier One用户无需再同一个区域下就能搭建局域网访问功能，利用软件实现在公司控制家中电脑的目的。",
+      "content": "ZeroTier(局域网搭建工具)，用户无需再同一个区域下就能搭建局域网访问功能，利用软件实现在公司控制家中电脑。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/zerotier.tar?ref=main"
     },
@@ -189,6 +189,17 @@
       "model": "",
       "class": "sys",
       "content": "这是一个小米路由器的可以快速备份配置，恢复配置小插件，让数据不再丢失，非常适合经常刷机的人。",
+      "sha": "",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/mi_bak_tool.tar?ref=main"
+    },
+    {
+      "ID": 18,
+      "name": "tailscale",
+      "title": "内网穿透",
+      "version": "0.0.0",
+      "model": "",
+      "class": "user",
+      "content": "tailscale实现远程访问和zerotier类似,它将多个局域网组成一个虚拟局域网,继而实现多个局域网之间的远程访问。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/mi_bak_tool.tar?ref=main"
     }
