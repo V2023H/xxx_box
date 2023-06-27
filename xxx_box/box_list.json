@@ -197,7 +197,7 @@
       "name": "tailscale",
       "title": "内网穿透",
       "version": "0.0.0",
-      "model": "",
+      "model": "@7000,@ax9000",
       "class": "user",
       "content": "tailscale实现远程访问和zerotier类似,它将多个局域网组成一个虚拟局域网,继而实现多个局域网之间的远程访问。",
       "sha": "",
