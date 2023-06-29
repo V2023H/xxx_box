@@ -201,7 +201,7 @@
       "class": "user",
       "content": "tailscale实现远程访问和zerotier类似,它将多个局域网组成一个虚拟局域网,继而实现多个局域网之间的远程访问。",
       "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/mi_bak_tool.tar?ref=main"
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/tailscale.tar?ref=main"
     }
   ]
 }
