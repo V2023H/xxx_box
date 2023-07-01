@@ -59,7 +59,7 @@ elif [ "$num" = 2 ]; then
     cp -rf /etc/config/firewall $bak_path/firewall > /dev/null 2>&1
     #加密备份
     cd /tmp/tmp
-    tar -czf - config_bak | openssl enc -e -pbkdf -out /mnt/mtd/E87A0832F9B6B -k xiaoqian > /dev/null 2>&1
+    tar -czf - config_bak | openssl enc -e -aes256 -out /mnt/mtd/E87A0832F9B6B -k xiaoqian
     rm -rf $bak_path > /dev/null 2>&1
     echo 备份数据，运行完成
 
