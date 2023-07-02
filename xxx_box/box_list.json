@@ -76,7 +76,7 @@
       "name": "netdata",
       "title": "系统性能监控",
       "version": "0.0.0",
-      "model": "",
+      "model": "@7000,@ax9000",
       "class": "user",
       "content": "Netdata是一款实时性能监测工具,以web的可视化方式展示系统及应用程序的实时运行状态。前端响应快,UI很整洁,操作方面。",
       "sha": "",
