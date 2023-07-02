@@ -65,7 +65,7 @@
       "name": "owncloud",
       "title": "私有云",
       "version": "0.0.0",
-      "model": "",
+      "model": "@7000,@ax9000",
       "class": "user",
       "content": "ownCloud 是一个来自 KDE 社区开发的免费软件，提供私人的 Web 服务。当前主要功能包括文件管理（内建文件分享）",
       "sha": "",
