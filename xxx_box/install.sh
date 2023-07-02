@@ -73,12 +73,12 @@ elif [ "$num" = 3 ]; then
 else
     exit
 fi
-read -p "按任意键继续！重启路由器即可完成更新！"
 echo "切记：重启后运行下面这行命令激活工具箱"
 mtdb=`cat /proc/mtd | grep rootfs_1 | awk '{print $1}' | sed 's/:$//g' | sed 's/mtd/mtdblock/g'`
 #mkdir /mnt/mtd > /dev/null && /bin/mount -t ext4 /dev/$mtdb /mnt/mtd
 echo "mkdir /mnt/mtd && /bin/mount -t ext4 /dev/$mtdb /mnt/mtd && sh /mnt/mtd/xxx_init.sh"
 echo "重启后登录TEL，默认信息 "`/mnt/mtd/xxx_tool password`
+read -p "按任意键继续！重启路由器即可完成更新！"
 env -i sleep 4 && nvram set restore_defaults=1 && nvram commit && reboot & >/dev/null 2>/dev/null
 
 
