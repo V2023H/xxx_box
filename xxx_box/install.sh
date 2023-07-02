@@ -73,6 +73,7 @@ elif [ "$num" = 3 ]; then
 else
     exit
 fi
+read -p "按任意键继续！重启路由器即可完成更新！"
 echo "切记：重启后运行下面这行命令激活工具箱"
 mtdb=`cat /proc/mtd | grep rootfs_1 | awk '{print $1}' | sed 's/:$//g' | sed 's/mtd/mtdblock/g'`
 #mkdir /mnt/mtd > /dev/null && /bin/mount -t ext4 /dev/$mtdb /mnt/mtd
