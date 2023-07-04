@@ -202,6 +202,17 @@
       "content": "tailscale实现远程访问和zerotier类似,它将多个局域网组成一个虚拟局域网,继而实现多个局域网之间的远程访问。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/tailscale.tar?ref=main"
+    },
+    {
+      "ID": 19,
+      "name": "swap",
+      "title": "虚拟内存",
+      "version": "0.0.0",
+      "model": "@ax9000",
+      "class": "user",
+      "content": "当设备内存不够的时候可以开启虚拟内存，这需要ext4移动硬盘才能开启服务。",
+      "sha": "",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/swap.tar?ref=main"
     }
   ]
 }
