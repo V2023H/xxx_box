@@ -234,7 +234,7 @@
       "class": "user",
       "content": "这是一个简单的smb设置工具，可以设置设备上的smb。",
       "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/filebrowser.tar?ref=main"
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/samba_set.tar?ref=main"
     }
   ]
 }
