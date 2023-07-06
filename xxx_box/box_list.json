@@ -213,6 +213,17 @@
       "content": "当设备内存不够的时候可以开启虚拟内存，这需要ext4移动硬盘才能开启服务。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/swap.tar?ref=main"
+    },
+    {
+      "ID": 20,
+      "name": "filebrowser",
+      "title": "文件管理",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "这是一个简单的文件管理器，可以管理设备上的一些文件。",
+      "sha": "",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/filebrowser.tar?ref=main"
     }
   ]
 }
