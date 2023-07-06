@@ -224,6 +224,17 @@
       "content": "这是一个简单的文件管理器，可以管理设备上的一些文件。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/filebrowser.tar?ref=main"
+    },
+    {
+      "ID": 21,
+      "name": "samba_set",
+      "title": "smb设置",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "这是一个简单的smb设置工具，可以设置设备上的smb。",
+      "sha": "",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/filebrowser.tar?ref=main"
     }
   ]
 }
