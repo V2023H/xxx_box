@@ -1,7 +1,7 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "2.7",
+  "rom_version": "2.8",
   "rom_version_info": "新版本：$version\n更新内容:\n修复若干BUG，clash建议重新下载。",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
