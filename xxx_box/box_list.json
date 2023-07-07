@@ -183,14 +183,14 @@
     },
     {
       "ID": 17,
-      "name": "mi_bak_tool",
+      "name": "config_bak",
       "title": "配置备份工具",
       "version": "0.0.0",
-      "model": "",
+      "model": "@7000,@ax9000",
       "class": "sys",
       "content": "这是一个小米路由器的可以快速备份配置，恢复配置小插件，让数据不再丢失，非常适合经常刷机的人。",
       "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/mi_bak_tool.tar?ref=main"
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/config_bak.tar?ref=main"
     },
     {
       "ID": 18,
