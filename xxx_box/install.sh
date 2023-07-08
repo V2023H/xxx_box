@@ -31,8 +31,7 @@ ls /mnt/mtd | grep xxx_tool > /dev/null && echo "成功获取解密文件。" ||
 echo -----------------------------------------------
 echo -e "正在使用$mtd 分区安装工具,禁止将安装文件放在$mtd 分区"
 echo -e "1：去除所有配置，适合全新安装！"
-echo -e "2：保留Wi-Fi设置,上网设置,DHCP服务,局域网IP设置,路由器名称,路由器密码,扩展功能配置"
-echo -e "3：更新安装文件，保留所有配置安装，适合UI更新."
+echo -e "2：备份Wi-Fi设置,上网设置,DHCP服务,局域网IP设置,路由器名称,路由器密码"
 read -p "请输入对应数字 > " num
 echo -----------------------------------------------
 if [ "$num" = 1 ]; then
@@ -62,14 +61,6 @@ elif [ "$num" = 2 ]; then
     tar -czf - config_bak | openssl enc -e -aes256 -out /mnt/mtd/E87A0832F9B6B -k xiaoqian
     rm -rf $bak_path > /dev/null 2>&1
     echo 备份数据，运行完成
-
-elif [ "$num" = 3 ]; then
-    mkdir /mnt/mtd > /dev/null 2>&1
-    /bin/mount -t ext4 /dev/mtdblock22 /mnt/mtd > /dev/null 2>&1
-    /bin/tar -Jxf /mnt/mtd/E87A0832F9B6F userdisk/auto_start.sh userdisk/auto_start2.sh userdisk/start_stop.sh userdisk/skadi -C /
-    read -p "按任意键继续！重启路由器即可完成更新！"
-    reboot
-    exit
 else
     exit
 fi
