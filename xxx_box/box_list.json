@@ -39,17 +39,6 @@
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/aria2c.tar?ref=main"
     },
     {
-      "ID": 4,
-      "name": "clash",
-      "title": "网络工具",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "user",
-      "content": "Clash是一款开源的基于 Clash 的 GUI 前端程序,为互联网服务。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/clash.tar?ref=main"
-    },
-    {
       "ID": 5,
       "name": "docker",
       "title": "容器引擎",
