@@ -235,6 +235,17 @@
       "content": "这是一个简单的smb设置工具，可以设置设备上的smb。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/samba_set.tar?ref=main"
+    },
+    {
+      "ID": 22,
+      "name": "test",
+      "title": "测试工具",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "这是一个简单的示例程序，包含说明文件，以及测试代码，要自己打包程序的建议安装查看该程序。",
+      "sha": "",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/test.tar?ref=main"
     }
   ]
 }
