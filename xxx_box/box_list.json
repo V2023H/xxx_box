@@ -43,7 +43,7 @@
       "name": "clash",
       "title": "网络工具",
       "version": "0.0.0",
-      "model": "@7000,@ax9000",
+      "model": "",
       "class": "user",
       "content": "Clash是一款开源的基于 Clash 的 GUI 前端程序,为互联网服务。",
       "sha": "",
