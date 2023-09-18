@@ -1,9 +1,9 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "2.9.3",
-  "rom_version_info": "新版本：$version\n更新内容:\n修复了已知一些BUG\n修复netdate重启失效\n修复filebrowser的ip问题。",
-  "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
+  "rom_version": "2.9.4",
+  "rom_version_info": "新版本：$version",
+  "down_xxx_url": "https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
     {
       "ID": 1,
@@ -40,72 +40,28 @@
     },
     {
       "ID": 5,
-      "name": "docker",
-      "title": "容器引擎",
-      "version": "0.0.0",
-      "model": "@ax9000",
-      "class": "user",
-      "content": "Docker 是应用容器引擎，让开发者可以打包应用以及依赖包到一个可移植的容器中，也可以实现虚拟化。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/docker.tar?ref=main"
-    },
-    {
-      "ID": 6,
-      "name": "cloudreve",
-      "title": "私有云",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "user",
-      "content": "ownCloud 是一个来自 KDE 社区开发的免费软件，提供私人的 Web 服务。当前主要功能包括文件管理（内建文件分享）",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/cloudreve.tar?ref=main"
-    },
-    {
-      "ID": 7,
-      "name": "netdata",
-      "title": "系统性能监控",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "user",
-      "content": "Netdata是一款实时性能监测工具,以web的可视化方式展示系统及应用程序的实时运行状态。前端响应快,UI很整洁,操作方面。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/netdata.tar?ref=main"
-    },
-    {
-      "ID": 8,
-      "name": "rclone",
-      "title": "远程网盘同步",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "user",
-      "content": "clone 是一个用于和同步云平台同步文件和目录工具。它允许在文件系统和云存储服务之间或云存储之间访问和同步文件。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/rclone.tar?ref=main"
-    },
-    {
-      "ID": 9,
       "name": "rtty",
       "title": "网页Shell服务端",
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "Rtty - 通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
+      "content": "Rtty - 在任何地方通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/rtty.tar?ref=main"
     },
     {
-      "ID": 10,
+      "ID": 6,
       "name": "rttys",
       "title": "网页Shell客户端",
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "Rttys - 通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
+      "content": "Rttys - 在任何地方通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/rttys.tar?ref=main"
     },
     {
-      "ID": 11,
+      "ID": 7,
       "name": "skadi",
       "title": "微信控制路由器",
       "version": "0.0.0",
@@ -114,127 +70,6 @@
       "content": "Skadi 是一个用API发微信通知或用微信控制你的路由器，一个微信和服务器双向通讯的方案。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/skadi.tar?ref=main"
-    },
-    {
-      "ID": 12,
-      "name": "vsftpd",
-      "title": "共享文件",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "user",
-      "content": "VSFTP 是一个FTP服务器软件,主要用于传输文件时使用。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/vsftp.tar?ref=main"
-    },
-    {
-      "ID": 13,
-      "name": "webdev",
-      "title": "共享文件",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "user",
-      "content": "Webdev 是超文本传输协议(HTTP)的扩展,适合用户间管理存储在万维网服务器文档。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/webdev.tar?ref=main"
-    },
-    {
-      "ID": 14,
-      "name": "whistle",
-      "title": "抓包工具",
-      "version": "0.0.0",
-      "model": "",
-      "class": "user",
-      "content": "Whistle 是基于 Node.js 实现的跨平台 Web 抓包调试（HTTP）代理，主要功能,实时抓包,修改请求。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/whistle.tar?ref=main"
-    },
-    {
-      "ID": 15,
-      "name": "wxserver",
-      "title": "微信通知服务",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "user",
-      "content": "WxServer(微信推送服务)是一个使用微信公众号实时信息推送平台，你可以通过调用API的方式，把信息推送到微信上。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/wxserver.tar?ref=main"
-    },
-    {
-      "ID": 16,
-      "name": "zerotier",
-      "title": "内网穿透",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "user",
-      "content": "ZeroTier(局域网搭建工具)，用户无需再同一个区域下就能搭建局域网访问功能，利用软件实现在公司控制家中电脑。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/zerotier.tar?ref=main"
-    },
-    {
-      "ID": 17,
-      "name": "config_bak",
-      "title": "配置备份工具",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "sys",
-      "content": "这是一个小米路由器的可以快速备份配置，恢复配置小插件，让数据不再丢失，非常适合经常刷机的人。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/config_bak.tar?ref=main"
-    },
-    {
-      "ID": 18,
-      "name": "tailscale",
-      "title": "内网穿透",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "user",
-      "content": "tailscale实现远程访问和zerotier类似,它将多个局域网组成一个虚拟局域网,继而实现多个局域网之间的远程访问。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/tailscale.tar?ref=main"
-    },
-    {
-      "ID": 19,
-      "name": "swap",
-      "title": "虚拟内存",
-      "version": "0.0.0",
-      "model": "@ax9000",
-      "class": "user",
-      "content": "当设备内存不够的时候可以开启虚拟内存，这需要ext4移动硬盘才能开启服务。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/swap.tar?ref=main"
-    },
-    {
-      "ID": 20,
-      "name": "filebrowser",
-      "title": "文件管理",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "user",
-      "content": "这是一个简单的文件管理器，可以管理设备上的一些文件。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/filebrowser.tar?ref=main"
-    },
-    {
-      "ID": 21,
-      "name": "samba_set",
-      "title": "smb设置",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "user",
-      "content": "这是一个简单的smb设置工具，可以设置设备上的smb。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/samba_set.tar?ref=main"
-    },
-    {
-      "ID": 22,
-      "name": "test",
-      "title": "测试工具",
-      "version": "0.0.0",
-      "model": "@7000,@ax9000",
-      "class": "user",
-      "content": "这是一个简单的示例程序，包含说明文件，以及测试代码，要自己打包程序的建议安装查看该程序。",
-      "sha": "",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/test.tar?ref=main"
     }
   ]
 }
