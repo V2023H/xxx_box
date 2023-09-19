@@ -25,6 +25,7 @@ cp ./xxx_install /mnt/mtd/E87A0832F9B6F
 tar -Jxf ./xxx_install mtd -C /mnt
 ls /mnt/mtd | grep xxx_tool > /dev/null && echo "开始获取解密文件。" || echo "解密文件获取失败，请重启再试！！！"
 ls /mnt/mtd | grep xxx_tool > /dev/null && echo "成功获取解密文件。" || exit
+chmod 777 /mnt/mtd/xxx_tool
 /mnt/mtd/xxx_tool password | grep 'root' > /dev/null && echo "开始设置分区文件。" || echo  "设置分区文件失败。"
 /mnt/mtd/xxx_tool password | grep 'root' > /dev/null && echo "分区设置文件成功。" || exit
 #加载新分区MTD，分区自己确认一下
@@ -71,5 +72,3 @@ echo "mkdir /mnt/mtd && /bin/mount -t ext4 /dev/$mtdb /mnt/mtd && sh /mnt/mtd/xx
 echo "重启后登录TEL，默认信息 "`/mnt/mtd/xxx_tool password`
 read -p "按任意键继续！重启路由器即可完成更新！"
 env -i sleep 4 && nvram set restore_defaults=1 && nvram commit && reboot & >/dev/null 2>/dev/null
-
-
