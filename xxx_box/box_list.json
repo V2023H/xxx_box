@@ -241,7 +241,7 @@
       "name": "speedtest",
       "title": "网络测速",
       "version": "0.0.0",
-      "model": "@7000,@ax9000",
+      "model": "@ax9000",
       "class": "sys",
       "content": "强大而知名的全球宽带网络速度，Speedtest在全球有数百个测试节点，可以选择最近的节点测速。",
       "sha": "",
