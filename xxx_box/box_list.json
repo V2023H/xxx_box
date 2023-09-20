@@ -307,7 +307,7 @@
       "name": "bandwidthd",
       "title": "流量统计",
       "version": "2.9.4",
-      "model": "@7000,@ax9000",
+      "model": "@ax9000",
       "class": "user",
       "content": "bandwidthd在任何一台电脑可以通过web界面用浏览器查看经过网关的各个ip流量",
       "sha": "",
