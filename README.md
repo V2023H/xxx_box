@@ -4,7 +4,7 @@
 curl -ks https://api.github.com/repos/V2023H/xxx_box/contents/install?ref=main  | jsonfilter -e "@['content']" | base64 -d >/tmp/i && sh /tmp/i
 
 
-扩展功能 
+扩展功能 <br>
 1.功能导航 
 2.免密登录 
 3.控制台
