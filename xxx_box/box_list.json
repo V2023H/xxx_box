@@ -323,6 +323,17 @@
       "content": "支持 IPv6/IPv4 端口转发、反向代理、动态域名、IPv4 内网穿透、计划任务和证书等功能。",
       "sha": "",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/lucky.tar?ref=main"
+    },
+    {
+      "ID": 31,
+      "name": "tfcenter",
+      "title": "文件分享",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "tfcenter软件具备文件管理、端口映射、网络代理等功能；提供远程文件服务，提高远程工作效率。",
+      "sha": "",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/tfcenter.tar?ref=main"
     }
   ]
 }
