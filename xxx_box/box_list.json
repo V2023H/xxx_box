@@ -46,7 +46,7 @@
       "model": "@ax9000",
       "class": "user",
       "content": "Docker 是应用容器引擎，让开发者可以打包应用以及依赖包到一个可移植的容器中，也可以实现虚拟化。",
-      "sha": "",
+      "sha": "e0dbd41df33a8801d0e16233da2d2f237e1a370e",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/docker.tar?ref=main"
     },
     {
