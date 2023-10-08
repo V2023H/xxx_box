@@ -2,7 +2,7 @@
   "title": "小米路由器 - 软件中心",
   "content": "0",
   "rom_version": "2.9.6",
-  "rom_version_info": "新版本：$version\n更新内容:\n-修复升级导致自启丢失\n-兼容新版小米7000",
+  "rom_version_info": "新版本：$version\n更新内容:\n修复:\n-登录不再超时\n-上下页面指针和跳转问题\n-通过远程访问改成远程IP\n-安装运行下载跳转问题\n-修复升级导致自启丢失",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
     {
@@ -13,7 +13,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "AdGuard 是一种快速、轻量级的广告拦截浏览器扩展程序，可有效拦截所有类型的广告和跟踪器。",
-      "sha": "",
+      "sha": "15772a198bf251b1b13ef260eca1304a77e0d120",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/adguard.tar?ref=main"
     },
     {
@@ -24,7 +24,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "AList 是一个支持多种存储，支持网页浏览和 WebDAV 的文件列表程序。",
-      "sha": "",
+      "sha": "08412f7bb936558101c5ca1fbacf545310a7ffa1",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/alist.tar?ref=main"
     },
     {
@@ -35,7 +35,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Aria2 是一个多平台轻量级，支持 HTTP、FTP、BitTorrent 等多协议、多来源的命令行下载工具。",
-      "sha": "",
+      "sha": "763ed9219aa8b1f085df80bdf6f55486b4300f2e",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/aria2c.tar?ref=main"
     },
     {
@@ -46,7 +46,7 @@
       "model": "@ax9000",
       "class": "user",
       "content": "Docker 是应用容器引擎，让开发者可以打包应用以及依赖包到一个可移植的容器中，也可以实现虚拟化。",
-      "sha": "",
+      "sha": "e0dbd41df33a8801d0e16233da2d2f237e1a370e",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/docker.tar?ref=main"
     },
     {
@@ -57,7 +57,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "ownCloud 是一个来自 KDE 社区开发的免费软件，提供私人的 Web 服务。当前主要功能包括文件管理（内建文件分享）",
-      "sha": "",
+      "sha": "33c943292b5903b07642a0ed465f393607439f30",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/cloudreve.tar?ref=main"
     },
     {
@@ -68,7 +68,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Netdata是一款实时性能监测工具,以web的可视化方式展示系统及应用程序的实时运行状态。前端响应快,UI很整洁,操作方面。",
-      "sha": "",
+      "sha": "dcef03d92820c68ba4ed2a408047d200b1275357",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/netdata.tar?ref=main"
     },
     {
@@ -79,7 +79,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "clone 是一个用于和同步云平台同步文件和目录工具。它允许在文件系统和云存储服务之间或云存储之间访问和同步文件。",
-      "sha": "",
+      "sha": "b1a2e1245c3c6ced961691e9bc502b91712604ae",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/rclone.tar?ref=main"
     },
     {
@@ -90,7 +90,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Rtty - 通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
-      "sha": "",
+      "sha": "db989554fe859765ddabfac45c67952cd4caf2d7",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/rtty.tar?ref=main"
     },
     {
@@ -101,7 +101,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Rttys - 通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
-      "sha": "",
+      "sha": "49c96ef27617dd338384e865b4c24825cda04b52",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/rttys.tar?ref=main"
     },
     {
@@ -112,7 +112,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Skadi 是一个用API发微信通知或用微信控制你的路由器，一个微信和服务器双向通讯的方案。",
-      "sha": "",
+      "sha": "6709c4c8c4f0ec6c866facbd777f08ce30df2532",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/skadi.tar?ref=main"
     },
     {
@@ -123,7 +123,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "VSFTP 是一个FTP服务器软件,主要用于传输文件时使用。",
-      "sha": "",
+      "sha": "b940a4af7ac0ce2788e9b1304fe48813163d72ea",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/vsftp.tar?ref=main"
     },
     {
@@ -134,7 +134,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Webdev 是超文本传输协议(HTTP)的扩展,适合用户间管理存储在万维网服务器文档。",
-      "sha": "",
+      "sha": "112fe3e852d79b593fbcfeb1d3c6a95c31b92b32",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/webdev.tar?ref=main"
     },
     {
@@ -156,7 +156,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "WxServer(微信推送服务)是一个使用微信公众号实时信息推送平台，你可以通过调用API的方式，把信息推送到微信上。",
-      "sha": "",
+      "sha": "b270fb73eaa77af3fcc2c7493dc6b564935127eb",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/wxserver.tar?ref=main"
     },
     {
@@ -167,7 +167,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "ZeroTier(局域网搭建工具)，用户无需再同一个区域下就能搭建局域网访问功能，利用软件实现在公司控制家中电脑。",
-      "sha": "",
+      "sha": "eb2321d5039648b8759d25305972fcafa7483526",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/zerotier.tar?ref=main"
     },
     {
@@ -178,7 +178,7 @@
       "model": "@7000,@ax9000",
       "class": "sys",
       "content": "这是一个小米路由器的可以快速备份配置，恢复配置小插件，让数据不再丢失，非常适合经常刷机的人。",
-      "sha": "",
+      "sha": "f62d083213978cf32d58d6753ee8bab54b6ca1a1",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/config_bak.tar?ref=main"
     },
     {
@@ -189,7 +189,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "tailscale实现远程访问和zerotier类似,它将多个局域网组成一个虚拟局域网,继而实现多个局域网之间的远程访问。",
-      "sha": "",
+      "sha": "634a49a3b06de77ed26dbd8a0ecf9cb8b75cd588",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/tailscale.tar?ref=main"
     },
     {
@@ -200,7 +200,7 @@
       "model": "@ax9000",
       "class": "user",
       "content": "当设备内存不够的时候可以开启虚拟内存，这需要ext4移动硬盘才能开启服务。",
-      "sha": "",
+      "sha": "0a1484415c3bf4092273bf7bba585977702352fa",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/swap.tar?ref=main"
     },
     {
@@ -211,7 +211,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "这是一个简单的文件管理器，可以管理设备上的一些文件。",
-      "sha": "",
+      "sha": "c0307b5a2f8e3b36030ce3418aab851888a9a6b1",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/filebrowser.tar?ref=main"
     },
     {
@@ -222,7 +222,7 @@
       "model": "@7000,@ax9000",
       "class": "sys",
       "content": "这是一个简单的smb设置工具，可以设置设备上的smb。",
-      "sha": "",
+      "sha": "bb0867b8d944accecab5084776b7c155bf10cc57",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/samba_set.tar?ref=main"
     },
     {
@@ -233,7 +233,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "这是一个简单的示例程序，包含说明文件，以及测试代码，要自己打包程序的建议安装查看该程序。",
-      "sha": "",
+      "sha": "5f08790fe76f895363bffe97290be5ccff90a577",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/test.tar?ref=main"
     },
     {
@@ -244,7 +244,7 @@
       "model": "@ax9000",
       "class": "sys",
       "content": "强大而知名的全球宽带网络速度，Speedtest在全球有数百个测试节点，可以选择最近的节点测速。",
-      "sha": "",
+      "sha": "51b7e4db931f0170baf90c0dde16719085aa37c5",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/speedtest.tar?ref=main"
     },
     {
@@ -255,7 +255,7 @@
       "model": "@7000,@ax9000",
       "class": "sys",
       "content": "非常简单的一款磁盘测速工具，可以测速外接磁盘的最高读写速度。",
-      "sha": "",
+      "sha": "4beaa3c31f90c730f75611cab3f22cfc43f5377d",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/disktest.tar?ref=main"
     },
     {
@@ -266,7 +266,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "iPerf3是用于主动测试IP网络上最大可用带宽的工具。",
-      "sha": "",
+      "sha": "e935e3c6f39b804b804e51c856b7f4ba3764e028",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/iperf3server.tar?ref=main"
     },
     {
@@ -277,7 +277,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "iPerf3是用于主动测试IP网络上最大可用带宽的工具。",
-      "sha": "",
+      "sha": "84a4d48169b3b3d308b63bcfbc9cc0021f82d3b1",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/iperf3client.tar?ref=main"
     },
     {
@@ -288,7 +288,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "一款专门为百度网盘非vip用户们打造的下载工具",
-      "sha": "",
+      "sha": "7f47d4dc8b5fafcf744d5dcf5fb7fc25321a61b2",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/BaiduPCS.tar?ref=main"
     },
     {
@@ -299,7 +299,7 @@
       "model": "@7000,@ax9000",
       "class": "sys",
       "content": "UCI编辑器，方便修改uci信息，有需要的可以安装。",
-      "sha": "",
+      "sha": "64d6b90e29f185a7fd83118f9b68e0aff9b38212",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/uciedit.tar?ref=main"
     },
     {
@@ -310,7 +310,7 @@
       "model": "@ax9000",
       "class": "user",
       "content": "bandwidthd在任何一台电脑可以通过web界面用浏览器查看经过网关的各个ip流量",
-      "sha": "",
+      "sha": "3ed38a25ce640eec8fc7ebf0b4bba3bcc4969f9f",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/bandwidthd.tar?ref=main"
     },
     {
@@ -321,7 +321,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "支持 IPv6/IPv4 端口转发、反向代理、动态域名、IPv4 内网穿透、计划任务和证书等功能。",
-      "sha": "",
+      "sha": "a196c34047f6f12e0afcbef03292b049ec14458c",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/lucky.tar?ref=main"
     },
     {
@@ -332,7 +332,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "tfcenter软件具备文件管理、端口映射、网络代理等功能；提供远程文件服务，提高远程工作效率。",
-      "sha": "",
+      "sha": "0bd6429a54a1d51fcaa0fa30a89b20e3ac1ba752",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/tfcenter.tar?ref=main"
     }
   ]
