@@ -1,7 +1,7 @@
 #格式化,开始安装
 mtd=`cat /proc/mtd | grep rootfs_1 | awk '{print $1}' | sed 's/:$//g'`
 mtdb=`cat /proc/mtd | grep rootfs_1 | awk '{print $1}' | sed 's/:$//g' | sed 's/mtd/mtdblock/g'`
-if [ -n "$(cat /usr/share/xiaoqiang/xiaoqiang_version | grep RC06)" ] && [ -n "$(cat /usr/share/xiaoqiang/xiaoqiang_version | grep ROM | grep 1.0.111)" ]; then
+if [ -n "$(cat /usr/share/xiaoqiang/xiaoqiang_version | grep RC06)" ] && [ -n "$(cat /usr/share/xiaoqiang/xiaoqiang_version | grep ROM | grep 1.0.1)" ]; then
     echo 小米7000开始安装
 elif [ -n "$(cat /usr/share/xiaoqiang/xiaoqiang_version | grep RA70)" ] && [ -n "$(cat /usr/share/xiaoqiang/xiaoqiang_version | grep ROM | grep 1.0.168)" ]; then
     echo 小米ax9000开始安装
@@ -72,3 +72,5 @@ echo "mkdir /mnt/mtd && /bin/mount -t ext4 /dev/$mtdb /mnt/mtd && sh /mnt/mtd/xx
 echo "重启后登录TEL，默认信息 "`/mnt/mtd/xxx_tool password`
 read -p "按任意键继续！重启路由器即可完成更新！"
 env -i sleep 4 && nvram set restore_defaults=1 && nvram commit && reboot & >/dev/null 2>/dev/null
+
+
