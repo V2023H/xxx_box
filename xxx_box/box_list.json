@@ -1,8 +1,8 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "2.9.5",
-  "rom_version_info": "新版本：$version\n更新内容:\n修复:\n-登录不再超时\n-上下页面指针和跳转问题\n-通过远程访问改成远程IP\n-安装运行下载跳转问题\n-修复升级导致自启丢失",
+  "rom_version": "2.9.6",
+  "rom_version_info": "新版本：$version\n更新内容:\n-修复升级导致自启丢失\n-兼容新版小米7000",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
     {
