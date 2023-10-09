@@ -1,8 +1,8 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "2.9.6",
-  "rom_version_info": "新版本：$version\n更新内容:\n-修复升级导致自启丢失\n-兼容新版小米7000",
+  "rom_version": "2.9.8",
+  "rom_version_info": "新版本：$version\n更新内容:\n-修复升级导致自启丢失\n-兼容新版小米7000\n-新增软件更新功能",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
     {
@@ -332,7 +332,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "tfcenter软件具备文件管理、端口映射、网络代理等功能；提供远程文件服务，提高远程工作效率。",
-      "sha": "0bd6429a54a1d51fcaa0fa30a89b20e3ac1ba752",
+      "sha": "72a1af60eed587118ed75d3d167f8cf878ea6033",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/tfcenter.tar?ref=main"
     }
   ]
