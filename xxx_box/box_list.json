@@ -4,9 +4,8 @@
   "rom_version": "3.0.1",
   "rom_version_info": "新版本：$version
 更新内容:
--修复升级导致自启丢失
--兼容新版小米7000
--新增软件更新功能",
+-优化自启稳定性
+-优先绑定ext4分区",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
     {
