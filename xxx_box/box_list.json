@@ -214,7 +214,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "这是一个简单的文件管理器，可以管理设备上的一些文件。",
-      "sha": "2f33606c9d3c0ed7dbe9f9cd9bce43ed8e018e41",
+      "sha": "5cda482942a29ac3d4ca1e27356cbe1c8b72fcdb",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/filebrowser.tar?ref=main"
     },
     {
