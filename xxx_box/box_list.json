@@ -127,7 +127,7 @@
       "class": "user",
       "content": "VSFTP 是一个FTP服务器软件,主要用于传输文件时使用。",
       "sha": "94b15d58ae0a3ba726136c70f1155a27257433fe",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/vsftp.tar?ref=main"
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/vsftpd.tar?ref=main"
     },
     {
       "ID": 13,
