@@ -1,36 +1,28 @@
-#格式化,开始安装
-mtd=`cat /proc/mtd | grep rootfs_1 | awk '{print $1}' | sed 's/:$//g'`
-mtdb=`cat /proc/mtd | grep rootfs_1 | awk '{print $1}' | sed 's/:$//g' | sed 's/mtd/mtdblock/g'`
-if [ -n "$(cat /usr/share/xiaoqiang/xiaoqiang_version | grep RC06)" ] && [ -n "$(cat /usr/share/xiaoqiang/xiaoqiang_version | grep ROM | grep 1.0.1)" ]; then
-    echo 小米7000开始安装
-elif [ -n "$(cat /usr/share/xiaoqiang/xiaoqiang_version | grep RA70)" ] && [ -n "$(cat /usr/share/xiaoqiang/xiaoqiang_version | grep ROM | grep 1.0.168)" ]; then
-    echo 小米ax9000开始安装
-else
-    read -p "型号或者版本不兼容，强行安装请输入1，按任意键结束安装 > " num
-    if [ "$num" = 1 ]; then
-        echo 尝试强行安装...
-    else
-        exit
-    fi
-fi
-echo "准备开始安装..."
-umount -f /mnt/mtd > /dev/null 2>&1
-mkfs.ext4 /dev/$mtdb
+#开始安装
+echo '小米扩展功能准备开始安装...'
 cd  `dirname $0`
 #创建文件夹
-ls /mnt | grep mtd > /dev/null && echo '--------------'|| mkdir /mnt/mtd > /dev/null
+ls /mnt | grep mtd > /dev/null && echo 'MTD位置准备就绪'|| mkdir /mnt/mtd > /dev/null
+    user_size=`df /userdisk | grep / |awk '{print $4}'`
+    data_size=`df /data | grep / |awk '{print $4}'`
+    if [ "$user_size" -lt "$data_size" ]; then
+        disk_path="/data"
+    else
+        disk_path="/userdisk"
+    fi
+disk_use_size=`df /userdisk | grep / | awk '{print $4}'`
+[ $(($disk_use_size)) -gt 10000 ] || echo '系统空间小于10MB，无法安装.'
+[ $(($disk_use_size)) -gt 10000 ] || exit
+ls $disk_path | grep mtd > /dev/null && echo 'MTD空间准备就绪'|| mkdir $disk_path/mtd > /dev/null
 #验证是否挂载成功，未成功则手动挂载
-/bin/df |/bin/grep $mtdb&& echo mtd_挂载成功 || /bin/mount -t ext4 /dev/$mtdb /mnt/mtd 2>&1
+/bin/df |/bin/grep /mnt/mtd&& echo 'mtd_磁盘挂载成功' || /bin/mount --bind  $disk_path/mtd /mnt/mtd 2>&1
 cp ./xxx_install /mnt/mtd/E87A0832F9B6F
 tar -Jxf ./xxx_install mtd -C /mnt
-ls /mnt/mtd | grep xxx_tool > /dev/null && echo "开始获取解密文件。" || echo "解密文件获取失败，请重启再试！！！"
-ls /mnt/mtd | grep xxx_tool > /dev/null && echo "成功获取解密文件。" || exit
-chmod 777 /mnt/mtd/xxx_tool
-/mnt/mtd/xxx_tool password | grep 'root' > /dev/null && echo "开始设置分区文件。" || echo  "设置分区文件失败。"
-/mnt/mtd/xxx_tool password | grep 'root' > /dev/null && echo "分区设置文件成功。" || exit
+ls /mnt/mtd | grep xxx_init.sh > /dev/null && echo "准备验证安装文件..." || echo "文件获取失败，请重启再试！！！"
+ls /mnt/mtd | grep xxx_init.sh > /dev/null && echo "完成扩展功能安装！" || exit
 #加载新分区MTD，分区自己确认一下
 echo -----------------------------------------------
-echo -e "正在使用$mtd 分区安装工具,禁止将安装文件放在$mtd 分区"
+echo -e "是否需要备份？"
 echo -e "1：去除所有配置，适合全新安装！"
 echo -e "2：备份Wi-Fi设置,上网设置,DHCP服务,局域网IP设置,路由器名称,路由器密码"
 read -p "请输入对应数字 > " num
@@ -61,16 +53,11 @@ elif [ "$num" = 2 ]; then
     cd /tmp/tmp
     tar -czf - config_bak | openssl enc -e -aes256 -out /mnt/mtd/E87A0832F9B6B -k xiaoqian
     rm -rf $bak_path > /dev/null 2>&1
-    echo 备份数据，运行完成
+    sda=`df -T | grep ext4 | grep /dev/sd | awk '{print $7}' | grep -v docker | awk 'NR==1 {print $0}'`
+    is_sda=`df | grep /mnt/sda && echo true || echo false`
+    [ -n "$sda" ] && [ "$is_sda" = "false" ] && echo '无硬盘或优盘，备份在/mnt/mtd/E87A0832F9B6B，重置会丢失备份！' || mv /mnt/mtd/E87A0832F9B6B $sda/mi_bak/E87A0832F9B6B
+    [ -n "$sda" ] && [ "$is_sda" = "false" ] && exit || echo "备份在磁盘目录：$sda/mi_bak/E87A0832F9B6B"
 else
     exit
 fi
-echo "切记：重启后运行下面这行命令激活工具箱"
-mtdb=`cat /proc/mtd | grep rootfs_1 | awk '{print $1}' | sed 's/:$//g' | sed 's/mtd/mtdblock/g'`
-#mkdir /mnt/mtd > /dev/null && /bin/mount -t ext4 /dev/$mtdb /mnt/mtd
-echo "mkdir /mnt/mtd && /bin/mount -t ext4 /dev/$mtdb /mnt/mtd && sh /mnt/mtd/xxx_init.sh"
-echo "重启后登录TEL，默认信息 "`/mnt/mtd/xxx_tool password`
-read -p "按任意键继续！重启路由器即可完成更新！"
-env -i sleep 4 && nvram set restore_defaults=1 && nvram commit && reboot & >/dev/null 2>/dev/null
-
-
+sh /mnt/mtd/xxx_init.sh
