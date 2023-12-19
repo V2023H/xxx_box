@@ -1,11 +1,26 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "3.0.1",
+  "rom_version": "3.5.5",
   "rom_version_info": "新版本：$version
-更新内容:
--优化自启稳定性
--优先绑定ext4分区",
+更新内容
+此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。
+新版为兼容更多型号，以及一些BUG，去除了使用其他分区空间。
+新增软件包位置转移至硬盘或系统空间的功能。
+软件中心的部分密码都可在修改功能设置中修改。
+软件中心信息更加详细且可以查看软件包大小。
+软件中心的安装位置占用内存可以实时更新。
+防火墙功能待完善，暂时没空完善。
+
+软件更新
+rtty 更新了UI，提供密码设置。
+webdev 更新了UI，提供密码设置。
+vsftpd 更新了说明。
+samba_set 修复了启动失效的BUG。
+aria2c 更新了UI，提供密码设置。
+filebrowser 更新了UI，提供加密设置。
+zerotier更新了UI。
+新增GPT4，阿里云盘-webdav...",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
     {
@@ -38,7 +53,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Aria2 是一个多平台轻量级，支持 HTTP、FTP、BitTorrent 等多协议、多来源的命令行下载工具。",
-      "sha": "763ed9219aa8b1f085df80bdf6f55486b4300f2e",
+      "sha": "f74fc7655eb4b81534106cb4950a4aedfd1d7e3b",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/aria2c.tar?ref=main"
     },
     {
@@ -93,7 +108,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Rtty - 通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
-      "sha": "db989554fe859765ddabfac45c67952cd4caf2d7",
+      "sha": "401216f46db5db7af27840d883500f29d09a3a22",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/rtty.tar?ref=main"
     },
     {
@@ -126,7 +141,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "VSFTP 是一个FTP服务器软件,主要用于传输文件时使用。",
-      "sha": "94b15d58ae0a3ba726136c70f1155a27257433fe",
+      "sha": "1ca130bedf6bb9446d425a98280d2958201faad8",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/vsftpd.tar?ref=main"
     },
     {
@@ -137,7 +152,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Webdev 是超文本传输协议(HTTP)的扩展,适合用户间管理存储在万维网服务器文档。",
-      "sha": "112fe3e852d79b593fbcfeb1d3c6a95c31b92b32",
+      "sha": "66d24dd64da7f554a352e51ae3c469d7e011adeb",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/webdev.tar?ref=main"
     },
     {
@@ -170,7 +185,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "ZeroTier(局域网搭建工具)，用户无需再同一个区域下就能搭建局域网访问功能，利用软件实现在公司控制家中电脑。",
-      "sha": "eb2321d5039648b8759d25305972fcafa7483526",
+      "sha": "3b5b4ce8ae96baa43e654fa7b47b7ebe47eb64e8",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/zerotier.tar?ref=main"
     },
     {
@@ -214,7 +229,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "这是一个简单的文件管理器，可以管理设备上的一些文件。",
-      "sha": "5cda482942a29ac3d4ca1e27356cbe1c8b72fcdb",
+      "sha": "112ddab7b47c2b9059af599471a13fcd03398826",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/filebrowser.tar?ref=main"
     },
     {
@@ -225,7 +240,7 @@
       "model": "@7000,@ax9000",
       "class": "sys",
       "content": "这是一个简单的smb设置工具，可以设置设备上的smb。",
-      "sha": "bb0867b8d944accecab5084776b7c155bf10cc57",
+      "sha": "4fec893b5131b98e2bb8b080adafad2fa09c00e3",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/samba_set.tar?ref=main"
     },
     {
@@ -337,6 +352,28 @@
       "content": "tfcenter软件具备文件管理、端口映射、网络代理等功能；提供远程文件服务，提高远程工作效率。",
       "sha": "72a1af60eed587118ed75d3d167f8cf878ea6033",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/tfcenter.tar?ref=main"
+    },
+    {
+      "ID": 32,
+      "name": "ninja",
+      "title": "GPT4",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "OpenGPT4和3.5，用法自行尝试，不做介绍。",
+      "sha": "c04ef0dff99d450a246a49a8ff01fd639de44892",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/ninja.tar?ref=main"
+    },
+    {
+      "ID": 33,
+      "name": "aliyundrive",
+      "title": "webdev",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "aliyundrive可以将阿里云盘映射到本地当wenbdev使用，使用阿里云盘扫码即可登录",
+      "sha": "3fb11dc857a5e6e0b9bc4f51e19bfbfa2ffe4cf0",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/aliyundrive.tar?ref=main"
     }
   ]
 }
