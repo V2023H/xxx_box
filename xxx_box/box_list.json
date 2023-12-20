@@ -1,8 +1,8 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "3.5.6",
-  "rom_version_info": "新版本：$version\n更新内容\n此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。\n新版为兼容更多型号，以及一些BUG，去除了使用其他分区空间。\n新增软件包位置转移至硬盘或系统空间的功能。\n软件中心的部分密码都可在修改功能设置中修改。\n软件中心信息更加详细且可以查看软件包大小。\n软件中心的安装位置占用内存可以实时更新。\n防火墙功能待完善，暂时没空完善。\\nn软件更新\nrtty 更新了UI，提供密码设置。\nwebdev 更新了UI，提供密码设置。\nvsftpd 更新了说明。\nsamba_set 修复了启动失效的BUG。\naria2c 更新了UI，提供密码设置。\nfilebrowser 更新了UI，提供加密设置。\nzerotier更新了UI。\n新增GPT4，阿里云盘-webdav...",
+  "rom_version": "3.5.7",
+  "rom_version_info": "新版本：$version\n更新内容\n3.5.7\nSMB配置BUG修复\n虚拟内存优先加载\n加入鼠标特效\n\n3.5.5\n此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。\n新版为兼容更多型号，以及一些BUG，去除了使用其他分区空间。\n新增软件包位置转移至硬盘或系统空间的功能。\n软件中心的部分密码都可在修改功能设置中修改。\n软件中心信息更加详细且可以查看软件包大小。\n软件中心的安装位置占用内存可以实时更新。\n防火墙功能待完善，暂时没空完善。\\nn软件更新\nrtty 更新了UI，提供密码设置。\nwebdev 更新了UI，提供密码设置。\nvsftpd 更新了说明。\nsamba_set 修复了启动失效的BUG。\naria2c 更新了UI，提供密码设置。\nfilebrowser 更新了UI，提供加密设置。\nzerotier更新了UI。\n新增GPT4，阿里云盘-webdav..."
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
     {
@@ -35,7 +35,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Aria2 是一个多平台轻量级，支持 HTTP、FTP、BitTorrent 等多协议、多来源的命令行下载工具。",
-      "sha": "f74fc7655eb4b81534106cb4950a4aedfd1d7e3b",
+      "sha": "3a19c0f2e8d85f5eabc08378e1a161a7714c4b9b",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/aria2c.tar?ref=main"
     },
     {
@@ -90,7 +90,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Rtty - 通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
-      "sha": "401216f46db5db7af27840d883500f29d09a3a22",
+      "sha": "be958efbcca8f435a0c4b410110ff6800414252c",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/rtty.tar?ref=main"
     },
     {
@@ -112,7 +112,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Skadi 是一个用API发微信通知或用微信控制你的路由器，一个微信和服务器双向通讯的方案。",
-      "sha": "6709c4c8c4f0ec6c866facbd777f08ce30df2532",
+      "sha": "3e4b130de219f438cf3c9cc2cfbf45f7b1b29e3f",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/skadi.tar?ref=main"
     },
     {
@@ -134,7 +134,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Webdev 是超文本传输协议(HTTP)的扩展,适合用户间管理存储在万维网服务器文档。",
-      "sha": "66d24dd64da7f554a352e51ae3c469d7e011adeb",
+      "sha": "7eb0c4fa959902e15ce402a2967a87224879318f",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/webdev.tar?ref=main"
     },
     {
@@ -156,7 +156,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "WxServer(微信推送服务)是一个使用微信公众号实时信息推送平台，你可以通过调用API的方式，把信息推送到微信上。",
-      "sha": "b270fb73eaa77af3fcc2c7493dc6b564935127eb",
+      "sha": "af8788483b79719329a558ff0e8632c92a92d504",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/wxserver.tar?ref=main"
     },
     {
@@ -167,7 +167,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "ZeroTier(局域网搭建工具)，用户无需再同一个区域下就能搭建局域网访问功能，利用软件实现在公司控制家中电脑。",
-      "sha": "3b5b4ce8ae96baa43e654fa7b47b7ebe47eb64e8",
+      "sha": "3d7e20106709ce8d8cbdef71f071206d579f6490",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/zerotier.tar?ref=main"
     },
     {
@@ -178,7 +178,7 @@
       "model": "@7000,@ax9000",
       "class": "sys",
       "content": "这是一个小米路由器的可以快速备份配置，恢复配置小插件，让数据不再丢失，非常适合经常刷机的人。",
-      "sha": "f62d083213978cf32d58d6753ee8bab54b6ca1a1",
+      "sha": "f8f19941f58c5da2c7f07bad2839f77a64bb8455",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/config_bak.tar?ref=main"
     },
     {
@@ -211,7 +211,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "这是一个简单的文件管理器，可以管理设备上的一些文件。",
-      "sha": "112ddab7b47c2b9059af599471a13fcd03398826",
+      "sha": "d6fa1a682a0dc287cc9cd651924a2edeb24d9c6d",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/filebrowser.tar?ref=main"
     },
     {
@@ -222,7 +222,7 @@
       "model": "@7000,@ax9000",
       "class": "sys",
       "content": "这是一个简单的smb设置工具，可以设置设备上的smb。",
-      "sha": "4fec893b5131b98e2bb8b080adafad2fa09c00e3",
+      "sha": "11ca5c2e4debb4a76404aa5adbb1c248943d503a",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/samba_set.tar?ref=main"
     },
     {
@@ -310,7 +310,7 @@
       "model": "@ax9000",
       "class": "user",
       "content": "bandwidthd在任何一台电脑可以通过web界面用浏览器查看经过网关的各个ip流量",
-      "sha": "3ed38a25ce640eec8fc7ebf0b4bba3bcc4969f9f",
+      "sha": "05ff7797bfe29b595ff869fe2470756156c5e380",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/bandwidthd.tar?ref=main"
     },
     {
@@ -354,7 +354,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "aliyundrive可以将阿里云盘映射到本地当wenbdev使用，使用阿里云盘扫码即可登录",
-      "sha": "3fb11dc857a5e6e0b9bc4f51e19bfbfa2ffe4cf0",
+      "sha": "7ac9b4b922c255ff4ecbe0c956a688ac4f8b74c4",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/aliyundrive.tar?ref=main"
     }
   ]
