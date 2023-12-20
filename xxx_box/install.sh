@@ -58,6 +58,7 @@ elif [ "$num" = 2 ]; then
     is_sda=`df | grep /mnt/sda && echo true || echo false`
     [ -n "$sda" ] && [ "$is_sda" = "false" ] && echo '无硬盘或优盘，备份在/mnt/mtd/E87A0832F9B6B，重置会丢失备份！' || mv -f /mnt/mtd/E87A0832F9B6B $sda/mi_bak/E87A0832F9B6B
     [ -n "$sda" ] && [ "$is_sda" = "false" ] && exit || echo "备份在磁盘目录：$sda/mi_bak/E87A0832F9B6B"
+    exit
 else
     exit
 fi
