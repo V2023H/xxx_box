@@ -24,7 +24,7 @@ ls /mnt/mtd | grep xxx_init.sh > /dev/null && echo "完成扩展功能安装！"
 #加载新分区MTD，分区自己确认一下
 echo -----------------------------------------------
 echo -e "是否需要备份？"
-echo -e "1：去除所有配置，适合全新安装！"
+echo -e "1：无需备份或者已备份配置，直接进行安装扩展功能！"
 echo -e "2：备份Wi-Fi设置,上网设置,DHCP服务...,覆盖原备份"
 read -p "请输入对应数字 > " num
 echo -----------------------------------------------
@@ -58,6 +58,7 @@ elif [ "$num" = 2 ]; then
     is_sda=`df | grep /mnt/sda && echo true || echo false`
     [ -n "$sda" ] && [ "$is_sda" = "false" ] && echo '无硬盘或优盘，备份在/mnt/mtd/E87A0832F9B6B，重置会丢失备份！' || mv -f /mnt/mtd/E87A0832F9B6B $sda/mi_bak/E87A0832F9B6B
     [ -n "$sda" ] && [ "$is_sda" = "false" ] && exit || echo "备份在磁盘目录：$sda/mi_bak/E87A0832F9B6B"
+    exit
 else
     exit
 fi
