@@ -13,7 +13,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "AdGuard 是一种快速、轻量级的广告拦截浏览器扩展程序，可有效拦截所有类型的广告和跟踪器。",
-      "sha": "11b47b755b4c6afd98099f6cdb0469fbb4ef0a2c",
+      "sha": "c71184d1e3e5beb474802645873b38b667e9b280",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/adguard.tar?ref=main"
     },
     {
