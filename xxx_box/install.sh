@@ -11,7 +11,7 @@ ls /mnt | grep mtd > /dev/null && echo 'MTD位置准备就绪'|| mkdir /mnt/mtd 
     else
         disk_path="/userdisk"
     fi
-disk_use_size=`df /userdisk | grep / | awk '{print $4}'`
+disk_use_size=`df $disk_path | grep / | awk '{print $4}'`
 [ $(($disk_use_size)) -gt 10000 ] || echo '系统空间小于10MB，无法安装.'
 [ $(($disk_use_size)) -gt 10000 ] || exit
 ls $disk_path | grep mtd > /dev/null && echo 'MTD空间准备就绪'|| mkdir $disk_path/mtd > /dev/null
