@@ -266,7 +266,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "iPerf3是用于主动测试IP网络上最大可用带宽的工具。",
-      "sha": "e935e3.6.49b804b804e51c856b7f4ba3764e028",
+      "sha": "e935e3c6f39b804b804e51c856b7f4ba3764e028",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/iperf3server.tar?ref=main"
     },
     {
