@@ -356,6 +356,17 @@
       "content": "aliyundrive可以将阿里云盘映射到本地当wenbdev使用，使用阿里云盘扫码即可登录",
       "sha": "7ac9b4b922c255ff4ecbe0c956a688ac4f8b74c4",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/aliyundrive.tar?ref=main"
+    },
+    {
+      "ID": 34,
+      "name": "cpolar",
+      "title": "隧道服务",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "cpolar可以让你异地访问本地网络，可以免费使用，也有付费服用。",
+      "sha": "a0b007e2fb4a464b373ea2010ba7a3763f540cdc",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/cpolar.tar?ref=main"
     }
   ]
 }
