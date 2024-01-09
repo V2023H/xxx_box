@@ -364,9 +364,20 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "cpolar可以让你异地访问本地网络，可以免费使用，也有付费服用。",
+      "content": "cpolar可以让你公网访问本地网络，可以搭建服务器使用，有免费，也有付费服务。",
       "sha": "a0b007e2fb4a464b373ea2010ba7a3763f540cdc",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/cpolar.tar?ref=main"
+    },
+    {
+      "ID": 35,
+      "name": "brook",
+      "title": "代理服务",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "brook可以让你代理本地和代理公网，配合cpolar可以在公网代理路由器内网。",
+      "sha": "b175d8e626ce45ddb3b426eba91965cf91ac6625",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/box_tar/brook.tar?ref=main"
     }
   ]
 }
