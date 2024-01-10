@@ -1,7 +1,11 @@
 #开始安装
 echo '小米扩展功能准备开始安装...'
 cd  `dirname $0`
-
+#测试读写
+[ -d /data/mnt ] || mkdir -p /data/mnt
+[ -d /mnt/xxx_test_rw ] && rmdir /mnt/xxx_test_rw
+mkdir /mnt/xxx_test_rw || mount --bind /data/mnt /mnt
+[ -d /mnt/xxx_test_rw ] && rmdir /mnt/xxx_test_rw
 #创建文件夹
 ls /mnt | grep mtd > /dev/null && echo 'MTD位置准备就绪'|| mkdir /mnt/mtd > /dev/null
     user_size=`df /userdisk | grep / |awk '{print $4}'`
