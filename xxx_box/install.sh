@@ -16,6 +16,9 @@ path_str=$(echo -e "$path_str""$(($ii+1))：自定义位置 （不推荐使用�
 [ $(($ii)) -lt 1 ] && echo 系统没有可用空间安装扩展功能。&& exit
 #选择XXX安装位置
 
+uci set lyq.xxx_update_list_json="https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/new_box_list.json?ref=main"
+uci commit lyq
+
 echo -----------------------------------------------
 echo '---------小米扩展功能准备开始安装--------------'
 echo -----------------------------------------------
