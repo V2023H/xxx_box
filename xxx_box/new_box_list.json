@@ -1,7 +1,7 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "4.5.0",
+  "rom_version": "4.5.2",
   "rom_version_info": "新版本：$version<br>更新内容<br>3.6.8<br>SMB配置BUG修复<br>虚拟内存优先加载<br>加入鼠标特效<br><br>3.5.5<br>此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。<br>新版为兼容更多型号，以及一些BUG，去除了使用其他分区空间。<br>新增软件包位置转移至硬盘或系统空间的功能。<br>软件中心的部分密码都可在修改功能设置中修改。<br>软件中心信息更加详细且可以查看软件包大小。<br>软件中心的安装位置占用内存可以实时更新。<br>防火墙功能待完善，暂时没空完善。<br>软件更新<br>rtty 更新了UI，提供密码设置。<br>webdev 更新了UI，提供密码设置。<br>vsftpd 更新了说明。<br>samba_set 修复了启动失效的BUG。<br>aria2c 更新了UI，提供密码设置。<br>filebrowser 更新了UI，提供加密设置。<br>zerotier更新了UI。<br>新增GPT4，阿里云盘-webdav...",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
@@ -13,7 +13,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "AdGuard 是一种快速、轻量级的广告拦截浏览器扩展程序，可有效拦截所有类型的广告和跟踪器。",
-      "sha": "c71184.5.0e5beb474802645873b38b667e9b280",
+      "sha": "c71184.5.2e5beb474802645873b38b667e9b280",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/adguard.tar?ref=main"
     },
     {
@@ -24,7 +24,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "AList 是一个支持多种存储，支持网页浏览和 WebDAV 的文件列表程序。",
-      "sha": "084.5.0bb936558101c5ca1fbacf545310a7ffa1",
+      "sha": "084.5.2bb936558101c5ca1fbacf545310a7ffa1",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/alist.tar?ref=main"
     },
     {
@@ -57,7 +57,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "ownCloud 是一个来自 KDE 社区开发的免费软件，提供私人的 Web 服务。当前主要功能包括文件管理（内建文件分享）",
-      "sha": "33c94.5.0b5903b07642a0ed465f393607439f30",
+      "sha": "33c94.5.2b5903b07642a0ed465f393607439f30",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/cloudreve.tar?ref=main"
     },
     {
@@ -101,7 +101,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Rttys - 通过Web访问您的设备的终端，通过设备ID来区分您的不同的设备，非常适合远程维护您的设备。",
-      "sha": "49c96ef27617dd338384e865b4.5.025cda04b52",
+      "sha": "49c96ef27617dd338384e865b4.5.225cda04b52",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/rttys.tar?ref=main"
     },
     {
@@ -134,7 +134,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "Webdev 是超文本传输协议(HTTP)的扩展,适合用户间管理存储在万维网服务器文档。",
-      "sha": "7eb0c4fa959902e15ce4.5.0967a87224879318f",
+      "sha": "7eb0c4fa959902e15ce4.5.2967a87224879318f",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/webdev.tar?ref=main"
     },
     {
@@ -156,7 +156,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "WxServer(微信推送服务)是一个使用微信公众号实时信息推送平台，你可以通过调用API的方式，把信息推送到微信上。",
-      "sha": "af87884.5.09719329a558ff0e8632c92a92d504",
+      "sha": "af87884.5.29719329a558ff0e8632c92a92d504",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/wxserver.tar?ref=main"
     },
     {
@@ -200,7 +200,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "当设备内存不够的时候可以开启虚拟内存，这需要ext4移动硬盘才能开启服务。",
-      "sha": "0a14.5.05c3bf4092273bf7bba585977702352fa",
+      "sha": "0a14.5.25c3bf4092273bf7bba585977702352fa",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/swap.tar?ref=main"
     },
     {
@@ -277,7 +277,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "iPerf3是用于主动测试IP网络上最大可用带宽的工具。",
-      "sha": "84.5.0.4.4b3b3d308b63bcfbc9cc0021f82d3b1",
+      "sha": "84.5.2.4.4b3b3d308b63bcfbc9cc0021f82d3b1",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/iperf3client.tar?ref=main"
     },
     {
@@ -342,7 +342,7 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "OpenGPT4.5.0，用法自行尝试，不做介绍。",
+      "content": "OpenGPT4.5.2，用法自行尝试，不做介绍。",
       "sha": "c04ef0dff99d450a246a49a8ff01fd639de44892",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/ninja.tar?ref=main"
     },
@@ -365,7 +365,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "cpolar可以让你公网访问本地网络，可以搭建服务器使用，有免费，也有付费服务。",
-      "sha": "a0b007e2fb4.5.0.4.4ea2010ba7a3763f540cdc",
+      "sha": "a0b007e2fb4.5.2.4.4ea2010ba7a3763f540cdc",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/cpolar.tar?ref=main"
     },
     {
