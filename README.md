@@ -3,5 +3,5 @@
 一键安装命令：
 
 
-curl -ks https://api.github.com/repos/V2023H/xxx_box/contents/install?ref=main  | jsonfilter -e "@['content']" | base64 -d >/tmp/i && sh /tmp/i
+sh -c "$(curl -ks https://api.github.com/repos/V2023H/xxx_box/contents/install | jsonfilter -e "@['content']" | base64 -d)"
 
