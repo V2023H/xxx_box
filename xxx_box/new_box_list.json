@@ -1,8 +1,8 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "4.9.7",
-  "rom_version_info": "新版本：$version<br>更新内容<br>4.9.7<br>解决alist无法使用，不保存配置的问题<br>解决刷新显示文件不存在的问题<br>解决mi_docker 文件损坏问题<br><br><br>3.6.8<br>SMB配置BUG修复<br>虚拟内存优先加载<br>加入鼠标特效<br><br>3.5.5<br>此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。<br>新版为兼容更多型号，以及一些BUG，去除了使用其他分区空间。<br>新增软件包位置转移至硬盘或系统空间的功能。<br>软件中心的部分密码都可在修改功能设置中修改。<br>软件中心信息更加详细且可以查看软件包大小。<br>软件中心的安装位置占用内存可以实时更新。<br>防火墙功能待完善，暂时没空完善。<br>软件更新<br>rtty 更新了UI，提供密码设置。<br>webdev 更新了UI，提供密码设置。<br>vsftpd 更新了说明。<br>samba_set 修复了启动失效的BUG。<br>aria2c 更新了UI，提供密码设置。<br>filebrowser 更新了UI，提供加密设置。<br>zerotier更新了UI。<br>新增GPT4，阿里云盘-webdav...",
+  "rom_version": "5.0.2",
+  "rom_version_info": "新版本：$version<br>更新内容<br>3.6.8<br>SMB配置BUG修复<br>虚拟内存优先加载<br>加入鼠标特效<br><br>3.5.5<br>此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。<br>新版为兼容更多型号，以及一些BUG，去除了使用其他分区空间。<br>新增软件包位置转移至硬盘或系统空间的功能。<br>软件中心的部分密码都可在修改功能设置中修改。<br>软件中心信息更加详细且可以查看软件包大小。<br>软件中心的安装位置占用内存可以实时更新。<br>防火墙功能待完善，暂时没空完善。<br>软件更新<br>rtty 更新了UI，提供密码设置。<br>webdev 更新了UI，提供密码设置。<br>vsftpd 更新了说明。<br>samba_set 修复了启动失效的BUG。<br>aria2c 更新了UI，提供密码设置。<br>filebrowser 更新了UI，提供加密设置。<br>zerotier更新了UI。<br>新增GPT4，阿里云盘-webdav...",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
     {
@@ -13,7 +13,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "AdGuard 是一种快速、轻量级的广告拦截浏览器扩展程序，可有效拦截所有类型的广告和跟踪器。",
-      "sha": "0e0405d8f0bef254d4f7f23a8e4105621008932e",
+      "sha": "97066a4b6a62588aadc9f85cc9f2e665f66ec9ed",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/adguard.tar?ref=main"
     },
     {
