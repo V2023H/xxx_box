@@ -1,8 +1,8 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "5.1.4",
-  "rom_version_info": "新版本：$version<br>更新内容<br>3.6.8<br>SMB配置BUG修复<br>虚拟内存优先加载<br>加入鼠标特效<br><br>3.5.5<br>此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。<br>新版为兼容更多型号，以及一些BUG，去除了使用其他分区空间。<br>新增软件包位置转移至硬盘或系统空间的功能。<br>软件中心的部分密码都可在修改功能设置中修改。<br>软件中心信息更加详细且可以查看软件包大小。<br>软件中心的安装位置占用内存可以实时更新。<br>防火墙功能待完善，暂时没空完善。<br>软件更新<br>rtty 更新了UI，提供密码设置。<br>webdev 更新了UI，提供密码设置。<br>vsftpd 更新了说明。<br>samba_set 修复了启动失效的BUG。<br>aria2c 更新了UI，提供密码设置。<br>filebrowser 更新了UI，提供加密设置。<br>zerotier更新了UI。<br>新增GPT4，阿里云盘-webdav...",
+  "rom_version": "5.2.1",
+  "rom_version_info": "新版本：$version<br>更新内容<br>5.2.1<br>优化加载速度<br>优化上传功能<br>优化界面UI<br>修复tailscale重启失效<br>新增sun_panel导航<br>新增homebox智能<br>新增gotty终端<br>新增simple服务器<br>新增UU加速器<br>新增btop状态监视<br>3.6.8<br>SMB配置BUG修复<br>虚拟内存优先加载<br>加入鼠标特效<br><br>3.5.5<br>此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。<br>新版为兼容更多型号，以及一些BUG，去除了使用其他分区空间。<br>新增软件包位置转移至硬盘或系统空间的功能。<br>软件中心的部分密码都可在修改功能设置中修改。<br>软件中心信息更加详细且可以查看软件包大小。<br>软件中心的安装位置占用内存可以实时更新。<br>防火墙功能待完善，暂时没空完善。<br>软件更新<br>rtty 更新了UI，提供密码设置。<br>webdev 更新了UI，提供密码设置。<br>vsftpd 更新了说明。<br>samba_set 修复了启动失效的BUG。<br>aria2c 更新了UI，提供密码设置。<br>filebrowser 更新了UI，提供加密设置。<br>zerotier更新了UI。<br>新增GPT4，阿里云盘-webdav...",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
     {
@@ -79,7 +79,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "clone 是一个用于和同步云平台同步文件和目录工具。它允许在文件系统和云存储服务之间或云存储之间访问和同步文件。",
-      "sha": "270227a64d7ae0c17c5efdc65051ea7658fd50f7",
+      "sha": "17c362d1847a3106a18d018dd2497d5ab8213e31",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/rclone.tar?ref=main"
     },
     {
@@ -189,7 +189,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "tailscale实现远程访问和zerotier类似,它将多个局域网组成一个虚拟局域网,继而实现多个局域网之间的远程访问。",
-      "sha": "109ecc76541be027702b076d42ff9dc689947fd6",
+      "sha": "044698e3d71a411c4ae881ca87fae50a609412b7",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/tailscale.tar?ref=main"
     },
     {
@@ -378,6 +378,72 @@
       "content": "brook可以让你代理本地和代理公网，配合cpolar可以在公网代理路由器内网。",
       "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/brook.tar?ref=main"
+    },
+    {
+      "ID": 36,
+      "name": "uuplugin",
+      "title": "UU加速器",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "UU加速器，适合游戏玩家用来游戏加速的，米家安装过这里就不要安装了。",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/uuplugin.tar?ref=main"
+    },
+    {
+      "ID": 37,
+      "name": "btop",
+      "title": "终端性能监控",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "一个精美的终端监控工具，非常美观实用。",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/btop.tar?ref=main"
+    },
+    {
+      "ID": 38,
+      "name": "gotty",
+      "title": "网页shell工具",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "一个网页shell工具，执行命令行使用非常方便。",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/gotty.tar?ref=main"
+    },
+    {
+      "ID": 39,
+      "name": "simple",
+      "title": "Http服务器",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "这是一个简单的http服务器，可以用来搭建简易的网页",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/simple.tar?ref=main"
+    },
+    {
+      "ID": 40,
+      "name": "sun_panel",
+      "title": "网页导航",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "一般用于NAS的导航页，可以自定义页面信息，方便自己访问。",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/sun_panel.tar?ref=main"
+    },
+    {
+      "ID": 41,
+      "name": "homebox",
+      "title": "智能控制",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "这是智能家居控制系统，自行测试使用。",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/homebox.tar?ref=main"
     }
   ]
 }
