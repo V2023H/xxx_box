@@ -1,8 +1,8 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "5.2.3",
-  "rom_version_info": "新版本：$version<br>更新内容<br>5.2.3<br>新增frpc和frps<br>新增upc和ups<br>新增皎月连<br>5.2.2<br>优化空间利用率<br>5.2.1<br>优化加载速度<br>优化上传功能<br>优化界面UI<br>修复tailscale重启失效<br>新增sun_panel导航<br>新增homebox智能<br>新增gotty终端<br>新增simple服务器<br>新增UU加速器<br>新增btop状态监视<br>3.6.8<br>SMB配置BUG修复<br>虚拟内存优先加载<br>加入鼠标特效<br><br>3.5.5<br>此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。<br>新版为兼容更多型号，以及一些BUG，去除了使用其他分区空间。<br>新增软件包位置转移至硬盘或系统空间的功能。<br>软件中心的部分密码都可在修改功能设置中修改。<br>软件中心信息更加详细且可以查看软件包大小。<br>软件中心的安装位置占用内存可以实时更新。<br>防火墙功能待完善，暂时没空完善。<br>软件更新<br>rtty 更新了UI，提供密码设置。<br>webdev 更新了UI，提供密码设置。<br>vsftpd 更新了说明。<br>samba_set 修复了启动失效的BUG。<br>aria2c 更新了UI，提供密码设置。<br>filebrowser 更新了UI，提供加密设置。<br>zerotier更新了UI。<br>新增GPT4，阿里云盘-webdav...",
+  "rom_version": "5.2.4",
+  "rom_version_info": "新版本：$version<br>更新内容<br>5.2.3<br>新增frpc和frps<br>新增npc和nps<br>新增皎月连<br>5.2.2<br>优化空间利用率<br>5.2.1<br>优化加载速度<br>优化上传功能<br>优化界面UI<br>修复tailscale重启失效<br>新增sun_panel导航<br>新增homebox智能<br>新增gotty终端<br>新增simple服务器<br>新增UU加速器<br>新增btop状态监视<br>3.6.8<br>SMB配置BUG修复<br>虚拟内存优先加载<br>加入鼠标特效<br>3.5.5<br>此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。<br>新版为兼容更多型号，以及一些BUG，去除了使用其他分区空间。<br>新增软件包位置转移至硬盘或系统空间的功能。<br>软件中心的部分密码都可在修改功能设置中修改。<br>软件中心信息更加详细且可以查看软件包大小。<br>软件中心的安装位置占用内存可以实时更新。<br>防火墙功能待完善，暂时没空完善。<br>软件更新<br>rtty 更新了UI，提供密码设置。<br>webdev 更新了UI，提供密码设置。<br>vsftpd 更新了说明。<br>samba_set 修复了启动失效的BUG。<br>aria2c 更新了UI，提供密码设置。<br>filebrowser 更新了UI，提供加密设置。<br>zerotier更新了UI。<br>新增GPT4，阿里云盘-webdav...",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
     {
@@ -474,31 +474,31 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "frpc服务端用于内网穿透，或者串流服务。",
+      "content": "frps服务端用于内网穿透，或者串流服务。",
       "sha": "ae8d3021f8585a813f887354619da06846100ac6",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/frps-panel.tar?ref=main"
     },
     {
       "ID": 45,
-      "name": "upc",
-      "title": "upc客户端",
+      "name": "npc",
+      "title": "npc客户端",
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "frpc服务端用于内网穿透，或者串流服务。",
-      "sha": "6dfa806e04c1d1e214524edea061837b866fbb9d",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/upc.tar?ref=main"
+      "content": "npc客户端用于内网穿透，或者串流服务。",
+      "sha": "3fca767c92e76821d512469ac22ee032500da07e",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/npc.tar?ref=main"
     },
     {
       "ID": 46,
-      "name": "ups",
-      "title": "ups服务端",
+      "name": "nps",
+      "title": "nps服务端",
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "user",
-      "content": "frpc服务端用于内网穿透，或者串流服务。",
-      "sha": "6dfa806e04c1d1e214524edea061837b866fbb9d",
-      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/ups.tar?ref=main"
+      "content": "nps服务端用于内网穿透，或者串流服务。",
+      "sha": "50a05d3584ae4d9100ab9b63c860622b851a867f",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/nps.tar?ref=main"
     }
   ]
 }
