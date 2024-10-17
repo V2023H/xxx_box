@@ -376,7 +376,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "brook可以让你代理本地和代理公网，配合cpolar可以在公网代理路由器内网。",
-      "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/brook.tar?ref=main"
     },
     {
@@ -387,7 +387,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "UU加速器，适合游戏玩家用来游戏加速的，米家安装过这里就不要安装了。",
-      "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/uuplugin.tar?ref=main"
     },
     {
@@ -398,7 +398,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "一个精美的终端监控工具，非常美观实用。",
-      "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/btop.tar?ref=main"
     },
     {
@@ -409,7 +409,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "一个网页shell工具，执行命令行使用非常方便。",
-      "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/gotty.tar?ref=main"
     },
     {
@@ -420,7 +420,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "这是一个简单的http服务器，可以用来搭建简易的网页",
-      "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/simple.tar?ref=main"
     },
     {
@@ -431,7 +431,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "一般用于NAS的导航页，可以自定义页面信息，方便自己访问。",
-      "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/sun_panel.tar?ref=main"
     },
     {
@@ -442,7 +442,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "这是智能家居控制系统，自行测试使用。",
-      "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/homebox.tar?ref=main"
     },
     {
@@ -453,7 +453,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "这是皎月连一键内网穿透，插件内部可能需要付费使用，自行测试使用。",
-      "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/natpierce.tar?ref=main"
     },
     {
@@ -464,7 +464,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "frpc客户端用于内网穿透，或者串流服务。",
-      "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/frpc-panel.tar?ref=main"
     },
     {
@@ -475,7 +475,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "frpc服务端用于内网穿透，或者串流服务。",
-      "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
+      "sha": "b4f125bedc311dabbdf92c1a9ca751544a4cec94",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/frps-panel.tar?ref=main"
     }
   ]
