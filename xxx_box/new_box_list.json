@@ -444,6 +444,28 @@
       "content": "这是智能家居控制系统，自行测试使用。",
       "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/homebox.tar?ref=main"
+    },
+    {
+      "ID": 42,
+      "name": "natpierce",
+      "title": "皎月连",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "这是皎月连一键内网穿透，插件内部可能需要付费使用，自行测试使用。",
+      "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/natpierce.tar?ref=main"
+    },
+    {
+      "ID": 43,
+      "name": "frpc",
+      "title": "frpc客户端",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "frpc客户端用于内网穿透，需要有公网IP或者服务器。",
+      "sha": "f18fe019ac86d2468513b9ab8788ef00ae269556",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/frpc.tar?ref=main"
     }
   ]
 }
