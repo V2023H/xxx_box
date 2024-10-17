@@ -167,7 +167,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "ZeroTier(局域网搭建工具)，用户无需再同一个区域下就能搭建局域网访问功能，利用软件实现在公司控制家中电脑。",
-      "sha": "1e0cc14149bc6d340603b2026b55deda66ef37d2",
+      "sha": "27e88152632a6d24da5b01129abb52f4681f6624",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/zerotier.tar?ref=main"
     },
     {
@@ -354,7 +354,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "aliyundrive可以将阿里云盘映射到本地当wenbdev使用，使用阿里云盘扫码即可登录",
-      "sha": "5a13e9ed15a37a2a0b944bbf29f6f3dee0489b85",
+      "sha": "51daaa7c4ca61dc7a32a831e4b0e045cddba6b26",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/aliyundrive.tar?ref=main"
     },
     {
