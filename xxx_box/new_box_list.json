@@ -508,7 +508,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "用于配置Nginx服务，新建网页服务。",
-      "sha": "50a05d3584ae4d9100ab9b63c860622b851a867f",
+      "sha": "50fdfc2707368b6eb8798fd873448c3ced322514",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/nginx_ui.tar?ref=main"
     }
   ]
