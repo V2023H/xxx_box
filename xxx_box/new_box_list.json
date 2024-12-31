@@ -510,6 +510,28 @@
       "content": "用于配置Nginx服务，新建网页服务。",
       "sha": "50fdfc2707368b6eb8798fd873448c3ced322514",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/nginx_ui.tar?ref=main"
+    },
+    {
+      "ID": 48,
+      "name": "navidrome",
+      "title": "音乐服务",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "用于创建属于自己的音乐网站，把自己喜欢的音乐上传随时随地都可以畅听。",
+      "sha": "bbd6f5a71a9bc4c3d31fb73533fcd05d1ded83f3",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/navidrome.tar?ref=main"
+    },
+    {
+      "ID": 49,
+      "name": "stash",
+      "title": "视频服务",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "user",
+      "content": "可以创建属于自己的视频网站，把自己喜欢的视频上传，功能强大，在线播放。",
+      "sha": "f4bcdfa0bfa12a14c2ed47e4dd345afbd4b7b5d1",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/stash.tar?ref=main"
     }
   ]
 }
