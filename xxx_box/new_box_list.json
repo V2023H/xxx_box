@@ -288,7 +288,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "一款专门为百度网盘非vip用户们打造的下载工具",
-      "sha": "39505609cee4f29e3a8f0b7164be945cdc3cc368",
+      "sha": "a8118aaf640fe0bf9ab62a53dc353e317810eb36",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/BaiduPCS.tar?ref=main"
     },
     {
