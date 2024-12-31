@@ -17,7 +17,7 @@ sda_path="$(df /mnt/sda | grep /mnt | awk '{print $6}')"
 xxx_path_tmp=$(df | grep -v "100%" | awk '{print $6}' | cut -c 2- | grep -v / | tail -n +2 | grep -v dev | grep -v tmp  | grep -v root | awk '{print "/"$1}')
 xxx_path_tmp="$xxx_path_tmp
 $sda_path"
-min_size=12424 #安装磁盘最小12MB空间
+min_size=10424 #安装磁盘最小12MB空间
 IFS='
 '
 path_str=""
@@ -44,6 +44,7 @@ rm -rf /tmp/tmp/rom_tmp/ > /dev/null 2>&1
 echo -----------------------------------------------
 echo '---------小米扩展功能准备开始安装--------------'
 echo -----------------------------------------------
+echo -e "推荐安装至USB空间，系统空间普遍较小。"
 echo -e "请选择安装位置 (默认1)"
 echo -e "$path_str" | sed "s/ //g"
 read -p "请输入对应数字 > " path_num
