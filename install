@@ -1,7 +1,6 @@
-echo 正在内测，禁止安装
-#echo 目前有普通版和精简版可以安装，建议储存空间较小的机型安装精简版本。
-#echo 若有USB或者自带大容量空间推荐普通版，建议USB机型磁盘格式化为ext4。
-#echo 1.普通版 2.精简版
+echo 目前有普通版和精简版可以安装，建议储存空间较小的机型安装精简版本。
+echo 若有USB或者自带大容量空间推荐普通版，建议USB机型磁盘格式化为ext4。
+echo 1.普通版 2.精简版
 read -p "选择您要安装的版本： > " num
 if [ "$num" = 1 ]; then
     git_url=$(curl -ks https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main | jsonfilter -e "@['git_url']")
