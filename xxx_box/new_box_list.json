@@ -1,7 +1,7 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "5.2.8",
+  "rom_version": "5.3.0",
   "rom_version_info": "新版本：$version<br>更新内容<br>5.2.8 <br>新增 音乐服务器<br>新增 视频服务器<br>新增 系统sftp-server服务，软件包功能<br>docker新增 终端dockerUI，歌词服务器，镜像服务器<br>修复 docker目录效验失败<br>修复 代码运行速度过慢的问题<br>修复 部分页面不能执行lua代码的问题<br>修复 已知BUG<br>5.2.5<br>修复部分设备界面UI显示异常<br>5.2.4<br>新增Nginx_ui<br>5.2.3<br>新增frpc和frps<br>新增npc和nps<br>新增皎月连<br>5.2.2<br>优化空间利用率<br>5.2.1<br>优化加载速度<br>优化上传功能<br>优化界面UI<br>修复tailscale重启失效<br>新增sun_panel导航<br>新增homebox智能<br>新增gotty终端<br>新增simple服务器<br>新增UU加速器<br>新增btop状态监视<br>3.6.8<br>SMB配置BUG修复<br>虚拟内存优先加载<br>加入鼠标特效<br>3.5.5<br>此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。<br>新版为兼容更多型号，以及一些BUG，去除了使用其他分区空间。<br>新增软件包位置转移至硬盘或系统空间的功能。<br>软件中心的部分密码都可在修改功能设置中修改。<br>软件中心信息更加详细且可以查看软件包大小。<br>软件中心的安装位置占用内存可以实时更新。<br>防火墙功能待完善，暂时没空完善。<br>软件更新<br>rtty 更新了UI，提供密码设置。<br>webdev 更新了UI，提供密码设置。<br>vsftpd 更新了说明。<br>samba_set 修复了启动失效的BUG。<br>aria2c 更新了UI，提供密码设置。<br>filebrowser 更新了UI，提供加密设置。<br>zerotier更新了UI。<br>新增GPT4，阿里云盘-webdav...",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
@@ -178,7 +178,7 @@
       "model": "@7000,@ax9000",
       "class": "sys",
       "content": "这是一个小米路由器的可以快速备份配置，恢复配置小插件，让数据不再丢失，非常适合经常刷机的人。",
-      "sha": "d451e95d5dd6c909a9630a70d6994c371b673985",
+      "sha": "bafa8af28430fd6eece5ffdb2ba7e69bcc3643f8",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/config_bak.tar?ref=main"
     },
     {
@@ -233,7 +233,7 @@
       "model": "@7000,@ax9000",
       "class": "user",
       "content": "这是一个简单的示例程序，包含说明文件，以及测试代码，要自己打包程序的建议安装查看该程序。",
-      "sha": "64ed383a94767efc619f2a73ad373397719c6d8d",
+      "sha": "f037eff0e1f1f66aaa5fed0cc5c66c63a4dfb326",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/test.tar?ref=main"
     },
     {
@@ -310,7 +310,7 @@
       "model": "@ax9000",
       "class": "user",
       "content": "bandwidthd在任何一台电脑可以通过web界面用浏览器查看经过网关的各个ip流量",
-      "sha": "2d190e75903ec929a58d6255fefbb3684eb6be2d",
+      "sha": "ccb11967c99b892a2eacaf4c961a133b4a08de96",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/bandwidthd.tar?ref=main"
     },
     {
