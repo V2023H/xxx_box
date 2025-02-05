@@ -583,7 +583,7 @@
       "title": "雷神加速器",
       "version": "0.0.0",
       "model": "@7000,@ax9000",
-      "class": "user",
+      "class": "sys",
       "content": "雷神(leigod.com)加速器，可以加速此路由器下的所有网络游戏",
       "sha": "be7d1e635bcd221b383d19af720cf407be0a5d59",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/leigod.tar?ref=main"
