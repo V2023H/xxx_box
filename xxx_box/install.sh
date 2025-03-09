@@ -64,7 +64,18 @@ fi
 disk_avai_size=`df $xxx_path | grep / | awk '{print $4}'`
 [ $(($disk_avai_size)) -gt $min_size ] || echo "空间不足，最少需要"$min_size"kb，无法安装！"
 [ $(($disk_avai_size)) -gt $min_size ] || exit
-uci set lyq.xxx_path="$xxx_path"
+if [ -f $xxx_path/xxxcon/xxxbox ]; then
+    echo '保留配置覆盖安装...'
+    uci set lyq.xxx_path="$xxx_path"
+elif [ -f $xxx_path/xxx/xxxcon/xxxbox ]; then
+    xxx_path="$xxx_path/xxx"
+    echo '保留配置覆盖安装...'
+    uci set lyq.xxx_path="$xxx_path"
+else
+    xxx_path="$xxx_path/xxx"
+    mkdir $xxx_path
+    uci set lyq.xxx_path="$xxx_path"
+fi
 uci commit lyq
 #创建MTD文件夹
 [ -d $xxx_path/mtd ] && echo 'MTD空间准备就绪...' || mkdir -p $xxx_path/mtd
