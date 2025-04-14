@@ -888,6 +888,19 @@
       "content": "请先安装node，运行node，然后安装运行该插件即可开启。",
       "sha": "",
       "download": "npm install -g whistle"
+    },
+    {
+      "ID": 70,
+      "name": "easytier",
+      "title": "异地组网",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "3711",
+      "dep": "",
+      "content": "来自群友小米BE7000分享的一个快速异地组网功能。",
+      "sha": "f037eff0e1f1f66aaa5fed0cc5c66c63a4dfb326",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/easytier.tar?ref=main"
     }
   ]
 }
