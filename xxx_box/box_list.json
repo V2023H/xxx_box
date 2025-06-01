@@ -957,7 +957,7 @@
       "content": "先安装运行docker，再安装该插件。",
       "content2": "http://{ip}:12345，使用，安装docker_ui管理，管理页http://{ip}:12345/admin，默认密码FileCodeBox2023",
       "sha": "",
-      "download": "docker run -d --name=FileCodeBox --restart=always -p 12345:12345 -v /mnt/sda/configs/FileCodeBox/:/app/data --name filecodebox lanol/filecodebox:beta"
+      "download": "docker run -d --name=FileCodeBox --restart=always -p 12345:12345 -v /mnt/sda/configs/FileCodeBox/:/app/data lanol/filecodebox:beta"
     },
     {
       "ID": 73,
