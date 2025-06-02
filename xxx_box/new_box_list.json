@@ -1332,7 +1332,7 @@
     {
       "ID": 10023,
       "name": "broadband",
-      "title": "快鸟宽带提速",
+      "title": "快鸟提速",
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "terminal",
