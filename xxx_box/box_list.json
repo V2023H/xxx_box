@@ -1,7 +1,7 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "7.2.9",
+  "rom_version": "7.3.3",
   "rom_version_info": "新版本：$version<br>更新内容<br>修复已知问题<br>网络加速服务<br>6.7.8<br>加入高级版<br>新增19个插件<br>修复已知BUG<br>优化界面<br>5.4.7<br>修复部分插件无法运行<br>加入node<br>加入插件分类<br>加入插件筛选<br>加入停用卸载<br>加入全屏运行<br>5.4.0<br>新增natapp<br>新增speederv2<br>新增goodlink<br>新增leigod<br>5.3.7 <br>新增路由表<br>新增docker扩展<br>万兆兼容speedtest<br>优化samba_set<br>删除修改SMB<br>修复已知BUG<br>5.2.8 <br>新增 音乐service器<br>新增 视频service器<br>新增 系统sftp-serverservice，软件包功能<br>docker新增 terminaldockerUI，歌词service器，镜像service器<br>修复 docker目录效验失败<br>修复 代码运行速度过慢的问题<br>修复 部分页面不能执行lua代码的问题<br>修复 已知BUG<br>5.2.5<br>修复部分设备界面UI显示异常<br>5.2.4<br>新增Nginx_ui<br>5.2.3<br>新增frpc和frps<br>新增npc和nps<br>新增皎月连<br>5.2.2<br>优化空间利用率<br>5.2.1<br>优化加载速度<br>优化上传功能<br>优化界面UI<br>修复tailscale重启失效<br>新增sun_panel导航<br>新增homebox智能<br>新增gottyterminal<br>新增simpleservice器<br>新增UU加速器<br>新增btop状态监视<br>3.6.8<br>SMB配置BUG修复<br>虚拟内存优先加载<br>加入鼠标特效<br>3.5.5<br>此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。<br>新版为兼容更多型号，以及一些BUG，去除了使用other分区空间。<br>新增软件包位置转移至硬盘或系统空间的功能。<br>软件中心的部分密码都可在修改功能设置中修改。<br>软件中心信息更加详细且可以查看软件包大小。<br>软件中心的安装位置占用内存可以实时更新。<br>防火墙功能待完善，暂时没空完善。<br>软件更新<br>rtty 更新了UI，提供密码设置。<br>webdev 更新了UI，提供密码设置。<br>vsftpd 更新了说明。<br>samba_set 修复了启动失效的BUG。<br>aria2c 更新了UI，提供密码设置。<br>filebrowser 更新了UI，提供加密设置。<br>zerotier更新了UI。<br>新增GPT4，阿里云盘-webdav...",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
@@ -1221,7 +1221,7 @@
       "size": "1100",
       "dep": "",
       "content": "压缩解压工具，在terminal使用。",
-      "sha": "0d7cef50a8c7128f40ea5b35f21656f3cfe6a955",
+      "sha": "6aecac4e392eca895989a62f4ce637d354bb8614",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/7z.tar?ref=main"
     },
     {
@@ -1234,7 +1234,7 @@
       "size": "128",
       "dep": "",
       "content": "磁盘管理工具，可以管理磁盘分区。",
-      "sha": "5bce336e49e4270324fee216a0f71c1342aa8a6c",
+      "sha": "0eb333b333f40c007b8113cc82fc157248eff62e",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/cfdisk.tar?ref=main"
     },
     {
@@ -1247,7 +1247,7 @@
       "size": "2528",
       "dep": "",
       "content": "动态解析DDNS域名。",
-      "sha": "750f6969449db86b7364be3c3bc7912c73960037",
+      "sha": "a535b0b1a471451d180772e509b1b9e4982ca8bc",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/ddns_go.tar?ref=main"
     },
     {
@@ -1260,7 +1260,7 @@
       "size": "624",
       "dep": "",
       "content": "仅测试ax9000和be10000。",
-      "sha": "e7d73a0dcd1689b24d33256f57d796633802c56d",
+      "sha": "d75ac9a7611bddc5d3d7b724de48b6de97983e93",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/fancontrol.tar?ref=main"
     },
     {
@@ -1273,7 +1273,7 @@
       "size": "44",
       "dep": "",
       "content": "终端系统管理和监控工具。",
-      "sha": "c47d63b800f44c3de953d1037ef325ade531e37f",
+      "sha": "bce36fc6c7a8b9c66f70fc234b0e3d8b33b05ace",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/htop.tar?ref=main"
     },
     {
@@ -1286,7 +1286,7 @@
       "size": "52",
       "dep": "",
       "content": "终端监控流量走向工具。",
-      "sha": "53cedcf9dc6009aae1b3a4e864d7c0010b9f076a",
+      "sha": "513cd08b8b70b239353bd1ec94908d2a3fac6796",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/iptraf.tar?ref=main"
     },
     {
@@ -1299,7 +1299,7 @@
       "size": "9224",
       "dep": "",
       "content": "终端git管理工具。",
-      "sha": "707699e999806e95722578a483e7981f21d0fdae",
+      "sha": "60fef1aa184e6983964e39557ab7ed5e0295889a",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/lazygit.tar?ref=main"
     },
     {
@@ -1312,7 +1312,7 @@
       "size": "2864",
       "dep": "",
       "content": "网络测速工具，一键测速。",
-      "sha": "15fe6a4ef22e17366a669e5dda00725198d78149",
+      "sha": "07c5d5b7402efc5653fa7be2dfa9beba194338a3",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/librespeed-cli.tar?ref=main"
     },
     {
@@ -1325,7 +1325,7 @@
       "size": "1560",
       "dep": "",
       "content": "网络优化效果显著。",
-      "sha": "ecaa475eca552d63cbb1f9b89d8ef231864388e0",
+      "sha": "3c871fd73fbaa760f88758d1c31b963d053bebea",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/lingmaxdns.tar?ref=main"
     },
     {
@@ -1335,10 +1335,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "2356",
+      "size": "2352",
       "dep": "",
       "content": "http，https网络管理。",
-      "sha": "a01d754ce8ceecc652540f8a46840c1444f5effb",
+      "sha": "ef353b3b7c83af8ca271ba1900e37815f2decdb1",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/mitmproxy.tar?ref=main"
     },
     {
@@ -1351,7 +1351,7 @@
       "size": "2048",
       "dep": "",
       "content": "iptv在线转播，相当于加强版的udpxy。",
-      "sha": "820c489657d06b273ec52fd7bf0f611e89e843fe",
+      "sha": "1dc680242edae8fc5ee989f7f9a3be689d7ff1bb",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/myiptv.tar?ref=main"
     },
     {
@@ -1364,7 +1364,7 @@
       "size": "26732",
       "dep": "",
       "content": "部分插件依赖的node",
-      "sha": "b7d5a75005918f99ff53e0ca407a4472345fe5bb",
+      "sha": "6ba6b210e0a7f75c13f38f9a9e6527de3a993a45",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/node.tar?ref=main"
     },
     {
@@ -1377,7 +1377,7 @@
       "size": "96",
       "dep": "",
       "content": "花生壳，内网穿透客户端。",
-      "sha": "2df3f34b8ee32b1b2a14f6789c396bea400c5917",
+      "sha": "50f664b4e38531a55207de120e826b4023857e4c",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/phtunnel.tar?ref=main"
     },
     {
@@ -1390,7 +1390,7 @@
       "size": "14632",
       "dep": "",
       "content": "下载种子非常好用。",
-      "sha": "69b210992b901e4d72f8381a638aa96a49f74613",
+      "sha": "ef0f10f2ce2e811e1b86676c282b06df5b844c80",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/qbittorrent.tar?ref=main"
     },
     {
@@ -1494,7 +1494,7 @@
       "size": "4028",
       "dep": "",
       "content": "文件分享，上传，下载，图床，视频。",
-      "sha": "f2bfc099e38a5924d5ca14eda937920bb7d05865",
+      "sha": "658cbf4d6890e333cfe134fa05e16f8010b9f696",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/gofile.tar?ref=main"
     },
     {
@@ -1507,8 +1507,21 @@
       "size": "32",
       "dep": "",
       "content": "迅雷的快鸟提速功能，部分地区支持宽带提速。",
-      "sha": "936704ed2568b4dd192bd4f04506f694ea7bc3c4",
+      "sha": "dea5549f539a47e30097c6f821681475bc3f17ad",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/broadband.tar?ref=main"
+    },
+    {
+      "ID": 10024,
+      "name": "qbittorrent_nox",
+      "title": "普通版",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "15964",
+      "dep": "",
+      "content": "种子磁力下载工具。",
+      "sha": "b8a5c7c8fa4f14e7cda38041b4c4cebaf4f2022e",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/qbittorrent_nox.tar?ref=main"
     }
   ]
 }
