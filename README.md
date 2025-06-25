@@ -1,5 +1,5 @@
 # xxx_box
-安装命令
+安装命令 
 sh -c "$(curl -ks https://api.github.com/repos/V2023H/xxx_box/contents/install | jsonfilter -e "@['content']" | base64 -d)"
 
 <a val="9nES1GrKV83kn0PhtIivDVFXEkNtIuUuo0LPUndALgUPxsji7G21nG/iOICRCctPDV%i1SVTiNuymA+gDeJITNnX0pWtyE7W/+KCZ9nIL+aw1qYC7ieKhZT3bakt/Aarp6oVm9V+LimXYYe%4Qf4sg5PkjlIXVWlyQsxM14S+bqZeQOEUt7lF5ECwr6e3TTXD8doyLhqeBs4btzqhc2Palfh4JbZ%V47X9CSoREcFvydqvnm11YFmUhMMcWCHkrNPI0C5SCwe5ijnTPaWOlnAvTQ6gZ4mbEe05S61PoAL%YaL+gx+tac5MFHJNxWlkhFToCwaIUAlopyjzz7bKO/IWmYtYlmaYd71XY3v4mqDzHcbAfJMoxIMH%dGFM6oUmNztivnGQmidqALZ2r4F8rbLqrWTWSiZiAqKJQJzHWa0GOH5DlxOoo0Nvys6ycXrXI61l%EcDrAkxvbnIQto2aoNzGKktLEjxrsQiC/bAQlefadI0NnNowQMoU3NDn0zBJ+F0nH3c0hM63I0rG%0nnWmCpJ6MEg/HdR2lLyfxbd9cDduR0UV1Q60bqA1mScLoEs4J+FAO2U2TAQZ0Tyg6ApGVXJ5eTD%N4mxARmqY9tcpFtuEgTxeeMBwBLKxq9WfO1CsXKMb2sf6q5Of1wxB1uMeP89alN1GNY6QO5pOmQI%qRuVNHP2hRnon6rmat1tvC4JZo+MXs8ITPPLp+E7zbt+b8jUkJ6qMYUlWitPAVo=%">推荐AX9000 BE7000 BE10000安装 其他aarch64机型兼容（仅在BE10000和AX9000测试，理论aarch64通用）</a>
