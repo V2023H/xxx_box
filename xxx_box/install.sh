@@ -196,6 +196,8 @@ echo -e "ssh    默认账号:root  密码:password"
 echo -----------------------------------------------
 chmod 777 /tmp/xxxbox_data/xxxcon/autostart
 /tmp/xxxbox_data/xxxcon/autostart init
+[ $? = 999 ] && echo "安装失败!!!"
+[ $? = 999 ] && exit
 chmod 777 $xxx_path/xxxcon/autostart
 $xxx_path/xxxcon/autostart
 echo "安装完成!!!"
