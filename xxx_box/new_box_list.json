@@ -1,7 +1,7 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "7.5.6",
+  "rom_version": "7.5.8",
   "rom_version_info": "新版本：$version<br>更新内容<br>修复已知问题<br>网络加速服务<br>6.7.8<br>加入高级版<br>新增19个插件<br>修复已知BUG<br>优化界面<br>5.4.7<br>修复部分插件无法运行<br>加入node<br>加入插件分类<br>加入插件筛选<br>加入停用卸载<br>加入全屏运行<br>5.4.0<br>新增natapp<br>新增speederv2<br>新增goodlink<br>新增leigod<br>5.3.7 <br>新增路由表<br>新增docker扩展<br>万兆兼容speedtest<br>优化samba_set<br>删除修改SMB<br>修复已知BUG<br>5.2.8 <br>新增 音乐service器<br>新增 视频service器<br>新增 系统sftp-serverservice，软件包功能<br>docker新增 terminaldockerUI，歌词service器，镜像service器<br>修复 docker目录效验失败<br>修复 代码运行速度过慢的问题<br>修复 部分页面不能执行lua代码的问题<br>修复 已知BUG<br>5.2.5<br>修复部分设备界面UI显示异常<br>5.2.4<br>新增Nginx_ui<br>5.2.3<br>新增frpc和frps<br>新增npc和nps<br>新增皎月连<br>5.2.2<br>优化空间利用率<br>5.2.1<br>优化加载速度<br>优化上传功能<br>优化界面UI<br>修复tailscale重启失效<br>新增sun_panel导航<br>新增homebox智能<br>新增gottyterminal<br>新增simpleservice器<br>新增UU加速器<br>新增btop状态监视<br>3.6.8<br>SMB配置BUG修复<br>虚拟内存优先加载<br>加入鼠标特效<br>3.5.5<br>此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。<br>新版为兼容更多型号，以及一些BUG，去除了使用other分区空间。<br>新增软件包位置转移至硬盘或系统空间的功能。<br>软件中心的部分密码都可在修改功能设置中修改。<br>软件中心信息更加详细且可以查看软件包大小。<br>软件中心的安装位置占用内存可以实时更新。<br>防火墙功能待完善，暂时没空完善。<br>软件更新<br>rtty 更新了UI，提供密码设置。<br>webdev 更新了UI，提供密码设置。<br>vsftpd 更新了说明。<br>samba_set 修复了启动失效的BUG。<br>aria2c 更新了UI，提供密码设置。<br>filebrowser 更新了UI，提供加密设置。<br>zerotier更新了UI。<br>新增GPT4，阿里云盘-webdav...",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
@@ -12,10 +12,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "6520",
+      "size": "6524",
       "dep": "",
       "content": "轻量级的广告拦截程序。",
-      "sha": "b2ddc89e6528c8cbdb90302716c305988b4f5cba",
+      "sha": "f9306769fb0774be3ab636378ab388781f2ef607",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/adguard.tar?ref=main"
     },
     {
@@ -1314,10 +1314,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "2528",
+      "size": "2748",
       "dep": "",
       "content": "动态解析DDNS域名。",
-      "sha": "a535b0b1a471451d180772e509b1b9e4982ca8bc",
+      "sha": "88d994bef15156def6dbaea2d43c6dabb9b82922",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/ddns_go.tar?ref=main"
     },
     {
@@ -1631,6 +1631,19 @@
       "content": "由开源版alist改编的新版本，功能与alist完全一样",
       "sha": "3f93756ac68ca753ffda5d06e175347458fb9651",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/openlist.tar?ref=main"
+    },
+    {
+      "ID": 10028,
+      "name": "filebrowser2",
+      "title": "新文件管理",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "13684",
+      "dep": "",
+      "content": "由filebrowser改编的新版本，界面进行了优化",
+      "sha": "5b9f8b2a8b3d957ee3c9993778cd1361514e8799",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/filebrowser2.tar?ref=main"
     }
   ]
 }
