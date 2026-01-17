@@ -1,7 +1,7 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "7.6.0",
+  "rom_version": "7.6.7",
   "rom_version_info": "新版本：$version<br>更新内容<br>修复已知问题<br>网络加速服务<br>6.7.8<br>加入高级版<br>新增19个插件<br>修复已知BUG<br>优化界面<br>5.4.7<br>修复部分插件无法运行<br>加入node<br>加入插件分类<br>加入插件筛选<br>加入停用卸载<br>加入全屏运行<br>5.4.0<br>新增natapp<br>新增speederv2<br>新增goodlink<br>新增leigod<br>5.3.7 <br>新增路由表<br>新增docker扩展<br>万兆兼容speedtest<br>优化samba_set<br>删除修改SMB<br>修复已知BUG<br>5.2.8 <br>新增 音乐service器<br>新增 视频service器<br>新增 系统sftp-serverservice，软件包功能<br>docker新增 terminaldockerUI，歌词service器，镜像service器<br>修复 docker目录效验失败<br>修复 代码运行速度过慢的问题<br>修复 部分页面不能执行lua代码的问题<br>修复 已知BUG<br>5.2.5<br>修复部分设备界面UI显示异常<br>5.2.4<br>新增Nginx_ui<br>5.2.3<br>新增frpc和frps<br>新增npc和nps<br>新增皎月连<br>5.2.2<br>优化空间利用率<br>5.2.1<br>优化加载速度<br>优化上传功能<br>优化界面UI<br>修复tailscale重启失效<br>新增sun_panel导航<br>新增homebox智能<br>新增gottyterminal<br>新增simpleservice器<br>新增UU加速器<br>新增btop状态监视<br>3.6.8<br>SMB配置BUG修复<br>虚拟内存优先加载<br>加入鼠标特效<br>3.5.5<br>此版本空间较少，AX9000和7000没有硬盘，非必要，不升级。<br>新版为兼容更多型号，以及一些BUG，去除了使用other分区空间。<br>新增软件包位置转移至硬盘或系统空间的功能。<br>软件中心的部分密码都可在修改功能设置中修改。<br>软件中心信息更加详细且可以查看软件包大小。<br>软件中心的安装位置占用内存可以实时更新。<br>防火墙功能待完善，暂时没空完善。<br>软件更新<br>rtty 更新了UI，提供密码设置。<br>webdev 更新了UI，提供密码设置。<br>vsftpd 更新了说明。<br>samba_set 修复了启动失效的BUG。<br>aria2c 更新了UI，提供密码设置。<br>filebrowser 更新了UI，提供加密设置。<br>zerotier更新了UI。<br>新增GPT4，阿里云盘-webdav...",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/xxx_box/xxx_install?ref=main",
   "box": [
@@ -704,7 +704,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "安装docker_ui管理",
       "sha": "",
       "download": "docker -itd busybox --name busybox"
@@ -718,7 +718,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:88，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -itd --restart=always --user=root --privileged --name kodcloud -p 88:80 kodcloud/kodbox"
@@ -732,7 +732,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:2345，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name xunlei --restart=always -v /mnt/sda/configs/xunlei:/xunlei/data -v /mnt/sda/downloads:/xunlei/downloads -p 2345:2345 --cap-add=NET_ADMIN --cap-add=MAC_ADMIN --cap-add=SYS_ADMIN --privileged registry.cn-shenzhen.aliyuncs.com/cnk3x/xunlei:latest"
@@ -746,7 +746,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:13000，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name gogs --restart=always -p 10022:22 -p 13000:3000 -v /var/gogs:/data gogs/gogs"
@@ -760,7 +760,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:8123，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name homeassistant --privileged --restart=always -e TZ='Asia/Shanghai' -v /mnt/sda/configs/homeassistant/config:/config --network=host homeassistant/home-assistant:latest"
@@ -774,7 +774,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:5230，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --restart=always --init --name memos --publish 5230:5230 --volume /mnt/sda/configs/.memos/:/var/opt/memos neosmemo/memos:stable"
@@ -788,7 +788,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:8063，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name='mt-photos' -v /mnt/sda/configs/mtphotos:/config -v /mnt/sda/upload:/upload -v /mnt/sda/photos:/folder1 -p 8063:8063 -e TZ='Asia/Shanghai' --restart='always' mtphotos/mt-photos:latest"
@@ -802,7 +802,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:4533，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name navidrome --restart=always --user 0:0 -v /mnt/sda/music:/music -v /mnt/sda/configs/navidrome/data:/data -p 4533:4533 -e ND_LOGLEVEL=info deluan/navidrome:latest"
@@ -816,7 +816,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:9091，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name feishu-p2p --cap-add=ALL --privileged=true -v /mnt/sda/configs/feishu/conf:/data/conf/ -v /mnt/sda/configs/feishu/logs:/data/logs/ --device=/dev/net/tun --restart=always --network=host registry.cn-qingdao.aliyuncs.com/feishuwg/p2p:v2.2"
@@ -830,7 +830,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:51900，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name=jellyfin -e TZ=Etc/UTC -p 8096:8096 -p 58920:8920 -p 57359:7359/udp -p 51900:1900/udp -v /mnt/sda/configs/jellyfin/path/to/library:/config -v /mnt/sda/configs/jellyfin/path/to/tvseries:/data/tvshows -v /mnt/sda/configs/jellyfin/path/to/movies:/data/movies --restart always lscr.io/linuxserver/jellyfin:latest"
@@ -844,7 +844,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:9001，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d -p 9001:4050 --name=simple-docker --restart=always -v /var/run/docker.sock:/var/run/docker.sock simple-docker:0.0.7.2"
@@ -858,7 +858,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:18080，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name subweb --restart always -p 18080:80 -v /mnt/sda/configs/subweb/public/conf:/usr/share/nginx/html/conf stilleshan/subweb"
@@ -872,7 +872,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:28883，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run --name lrcapi -d --restart=always -p 28883:28883 -v /mnt/sda/configs/lrcapi/music:/music hisatri/lrcapi:latest"
@@ -886,7 +886,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:8888，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run --name nascab --restart=always -v /mnt/sda/configs/nascab/myData:/myData -v /mnt/sda/configs/nascab/nascabData:/root/.local/share/nascab -p 8888:80 -p 5555:90 -d --log-opt max-size=10m --log-opt max-file=3 ypptec/nascab"
@@ -926,7 +926,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:3074，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name filerise --restart=always -p 3074:80 -v /mnt/sda/configs/filerise/uploads:/var/www/uploads -v /mnt/sda/configs/filerise/users:/var/www/users -v /mnt/sda/configs/filerise/metadata:/var/www/metadata -e TIMEZONE=Asia/Shanghai -e TOTAL_UPLOAD_SIZE=5G -e SECURE=false error311/filerise-docker:latest"
@@ -940,7 +940,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:5033，使用，安装docker_ui管理，再下载SyncClipboard客户端，默认用户admin，密码password，端口5033。",
       "sha": "",
       "download": "docker run -d --name=syncclipboard-server --restart=always -p 5033:5033 -e SYNCCLIPBOARD_USERNAME=admin -e SYNCCLIPBOARD_PASSWORD=password jericx/syncclipboard-server:latest"
@@ -954,7 +954,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:12345，使用，安装docker_ui管理，管理页http://{ip}:12345/admin，默认密码FileCodeBox2023",
       "sha": "",
       "download": "docker run -d --name=FileCodeBox --restart=always -p 12345:12345 -v /mnt/sda/configs/FileCodeBox/:/app/data lanol/filecodebox:beta"
@@ -968,7 +968,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:8384，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name syncthing --restart=always -p 8384:8384 -p 22000:22000/tcp -p 22000:22000/udp -p 21027:21027/udp -v /mnt/sda/configs/syncthing/wherever/st-sync:/var/syncthing --hostname=my-syncthing syncthing/syncthing:latest"
@@ -982,7 +982,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:8899，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name libretv --restart=always -p 8899:80 bestzwei/libretv:latest"
@@ -996,7 +996,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:8840，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name watchyourlan --restart=always -e IFACES=br-lan -e TZ=Asia/Shanghai --network=host -v /mnt/sda/configs/watchyourlan/:/data/WatchYourLAN aceberg/watchyourlan"
@@ -1010,7 +1010,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:25884，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name SPlayer --restart=always -p 25884:25884 imsyy/splayer:latest"
@@ -1024,7 +1024,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:5216，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name myspeed --restart=always --network=host -v /mnt/sda/configs/splayer/data:/myspeed/data -e RUN_TEST_ON_STARTUP=false -e SERVER_PORT=5216 docker.1ms.run/germannewsmaker/myspeed"
@@ -1038,7 +1038,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:18999，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name mediago --restart=always -p 18999:8899 -v /mnt/sda/configs/mediago:/root/mediago registry.cn-beijing.aliyuncs.com/caorushizi/mediago"
@@ -1052,7 +1052,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:8096，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --restart=always --name=emby -e TZ=Etc/UTC -p 8096:8096 -p 8921:8920 -v /mnt/sda/configs/emby/library:/config -v /mnt/sda/configs/emby/tvshows:/data/tvshows -v /mnt/sda/configs/emby/movies:/data/movies lscr.io/linuxserver/emby:latest"
@@ -1066,7 +1066,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:13001，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --restart=always --init --name aipan-netdisk-search-simple -p 13001:3000 unilei/aipan-netdisk-search-simple:latest"
@@ -1080,7 +1080,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:13002，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --restart=always --init --name aipan-netdisk-search -p 13002:3000 fooololo/aipan-netdisk-search:latest"
@@ -1094,7 +1094,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:5800，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --restart=always --name=baidunetdisk -p 5800:5800 -p 5900:5900 -v /mnt/sda/configs/baidunetdisk/config:/config -v /mnt/sda/configs/baidunetdisk/config/downloads:/config/downloads -e VNC_PASSWORD=password  johngong/baidunetdisk:latest"
@@ -1108,7 +1108,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:5700，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -dit --restart=always --name=qinglong -v /mnt/sda/configs/ql/config:/ql/config -v /mnt/sda/configs/ql/log:/ql/log -v /mnt/sda/configs/ql/db:/ql/db -p 5700:5700 --hostname qinglong whyour/qinglong:latest"
@@ -1122,7 +1122,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:8180，密码启动时自己查看，或者通过docker_ext查看日志，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name=qb_docker --restart=always -e TZ=Etc/UTC -e WEBUI_PORT=8180 -e TORRENTING_PORT=6881 -p 8180:8180 -p 6881:6881 -p 6881:6881/udp -v /mnt/sda/configs/qbittorrent/appdata:/config -v /mnt/sda/configs/qbittorrent/downloads:/downloads `#optional` lscr.io/linuxserver/qbittorrent:latest"
@@ -1136,7 +1136,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:35456，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name=allinone_format --restart=always -p 35456:35456 --network=host -v /mnt/sda/configs/allinone_format:/app/config yuexuangu/allinone_format:latest"
@@ -1150,7 +1150,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:9118，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --restart=always --net host --name owjdxb -v /mnt/sda/configs/owjdxb/store:/data/store ionewu/owjdxb_a64"
@@ -1164,7 +1164,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:3001，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data -v /var/run/docker.sock:/var/run/docker.sock --name uptime-kuma louislam/uptime-kuma:1"
@@ -1178,7 +1178,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:18966，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d -p 18966:18966 --name myip --restart always jason5ng32/myip:latest"
@@ -1192,7 +1192,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:3347，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name bitplay -p 3347:3347 -v /mnt/sda/configs/bitplay/config:/app/config --restart always ghcr.io/aculix/bitplay:main"
@@ -1206,7 +1206,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:5500，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name frigate --restart always -v /mnt/sda/configs//frigate/Container/dockerdata/frigate/config:/config -v /mnt/sda/configs/frigate/MEDIA2/frigate_storage:/media/frigate -p 5500:5000 -e TZ=Asia/Shanghai -e FRIGATE_RTSP_PASSWORD=pwd123 --privileged --device /dev/bus/usb:/dev/bus/usb --device /dev/dri/renderD128:/dev/dri/renderD128 ghcr.io/blakeblackshear/frigate:stable"
@@ -1220,7 +1220,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:8860，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run --name sublinkx --restart always -p 8860:8000 -v /mnt/sda/configs/sublink/db:/app/db -v /mnt/sda/configs/sublink/template:/app/template -v /mnt/sda/configs/sublink/logs:/app/logs -d jaaksi/sublinkx"
@@ -1234,7 +1234,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:8870，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name cinemore-server --restart always -p 8870:8000 -v /mnt/sda/configs/cinemore/data:/app/data -v /mnt/sda/configs/cinemore/media:/media cinemore/cinemore-server:latest"
@@ -1248,7 +1248,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "账号/密码：astrbot,先安装运行docker，再安装该插件。",
+      "content": "账号/密码：astrbot,依赖docker，再安装该插件。",
       "content2": "http://{ip}:6185，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -itd --restart always -p 6180-6200:6180-6200 -p 11451:11451 -v /mnt/sda/configs/astrbot/data:/AstrBot/data --name astrbot soulter/astrbot:latest"
@@ -1262,7 +1262,7 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，dpanel支持管理Docker，比自带的UI好用。",
       "content2": "http://{ip}:8807，使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name dpanel --restart=always -p 8807:8080 -e APP_NAME=dpanel -v /var/run/docker.sock:/var/run/docker.sock -v dpanel:/dpanel dpanel/dpanel:lite"
@@ -1276,10 +1276,66 @@
       "class": "dockerd",
       "size": "",
       "dep": "dockerd",
-      "content": "先安装运行docker，再安装该插件。",
+      "content": "依赖docker，再安装该插件。",
       "content2": "http://{ip}:34567，账号admin密码#Passw0rd使用，安装docker_ui管理",
       "sha": "",
       "download": "docker run -d --name openresty-manager --restart=always -p 1180:80 -p 11443:443 -p 34567:34567 -e TZ=Asia/Shanghai -v  /mnt/sda/configs/openresty/acme:/opt/om/acme -v /mnt/sda/configs/openresty/data:/opt/om/data -v /mnt/sda/configs/openresty/nginx/conf/sites:/opt/om/nginx/conf/sites -v /mnt/sda/configs/openresty/nginx/conf/certs:/opt/om/nginx/conf/certs  -v  /mnt/sda/configs/openresty/nginx/conf/upstreams:/opt/om/nginx/conf/upstreams --network=bridge uusec/openresty-manager:latest"
+    },
+    {
+      "ID": 96,
+      "name": "clouddrive2",
+      "title": "挂载云盘",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "dockerd",
+      "size": "",
+      "dep": "dockerd",
+      "content": "依赖docker，clouddrive2支持挂载一些网盘。",
+      "content2": "http://{ip}:19798，自行注册登录操作，安装docker_ui管理",
+      "sha": "",
+      "download": "docker run -d --name clouddrive2 --restart=always -v /mnt/sda/configs/clouddrive2:/CloudNAS -v /mnt/sda/configs/clouddrive2/Config:/Config -v /mnt/sda/configs/clouddrive2/media:/media --network host --privileged --device /dev/fuse:/dev/fuse cloudnas/clouddrive2"
+    },
+    {
+      "ID": 97,
+      "name": "easynode",
+      "title": "远程终端",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "dockerd",
+      "size": "",
+      "dep": "dockerd",
+      "content": "依赖docker，easynode支持远程桌面+文件+SSH。",
+      "content2": "http://{ip}:8082，用户密码在日志启动查看，安装docker_ui管理",
+      "sha": "",
+      "download": "docker run -d --restart=always --name easynode -p 8082:8082 -v /mnt/sda/configs/easynode/data:/easynode/app/db -e TZ=Asia/Shanghai -e DEBUG=0  docker.1panel.live/chaoszhu/easynode"
+    },
+    {
+      "ID": 98,
+      "name": "iptv_sources",
+      "title": "Iptv源",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "dockerd",
+      "size": "",
+      "dep": "dockerd",
+      "content": "依赖docker，Iptv源服务器，支持全球直播频道。",
+      "content2": "http://{ip}:30080，访问Iptv源列表",
+      "sha": "",
+      "download": "docker run --name iptv-sources -p 30080:8080 -d herberthe0229/iptv-sources:latest"
+    },
+    {
+      "ID": 99,
+      "name": "pansou",
+      "title": "网盘搜索",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "dockerd",
+      "size": "",
+      "dep": "dockerd",
+      "content": "依赖docker，可以搜索主流网盘的资源供下载。",
+      "content2": "http://{ip}:18181，账号admin密码password，登录即可使用",
+      "sha": "",
+      "download": "docker run -d --name pansou -p 18181:80 -e AUTH_ENABLED=true -e AUTH_USERS=admin:password -e AUTH_TOKEN_EXPIRY=24 ghcr.io/fish2018/pansou-web"
     },
     {
       "ID": 10001,
@@ -1644,6 +1700,110 @@
       "content": "由filebrowser改编的新版本，界面进行了优化",
       "sha": "5b9f8b2a8b3d957ee3c9993778cd1361514e8799",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/filebrowser2.tar?ref=main"
+    },
+    {
+      "ID": 10029,
+      "name": "file_transfer",
+      "title": "远程共享",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "2068",
+      "dep": "",
+      "content": "安全、快速、简单的点对点传输桌面，文件，文本，无需注册，即传即用",
+      "sha": "424aeab9d07b12561f524dfbd0b8781c867a7cf4",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/file_transfer.tar?ref=main"
+    },
+    {
+      "ID": 10030,
+      "name": "netpanel",
+      "title": "网络测速",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "932",
+      "dep": "",
+      "content": "一个简单且实用的测速服务",
+      "sha": "b6585debfffa0cdd4922f08dbcbbf97a34031e50",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/netpanel.tar?ref=main"
+    },
+    {
+      "ID": 10031,
+      "name": "dufs",
+      "title": "文件管理",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "1432",
+      "dep": "",
+      "content": "一个非常简单且使用的文件管理服务",
+      "sha": "bba71efea8266786f3503b5eb2279ba302a9a255",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/dufs.tar?ref=main"
+    },
+    {
+      "ID": 10032,
+      "name": "ctop",
+      "title": "Docker状态",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "terminal",
+      "size": "3128",
+      "dep": "",
+      "content": "一个非常简单的Docker状态查看和管理工具",
+      "sha": "8492c183fccc57c1506d193d3cf5bbdde9936067",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/ctop.tar?ref=main"
+    },
+    {
+      "ID": 10033,
+      "name": "bmon",
+      "title": "接口监控",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "terminal",
+      "size": "472",
+      "dep": "",
+      "content": "一个监测接口状态的工具,可接口实时网络速度",
+      "sha": "c40683d699679a252ebc0cd670c9044149077925",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/bmon.tar?ref=main"
+    },
+    {
+      "ID": 10034,
+      "name": "xray",
+      "title": "服务端",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "9496",
+      "dep": "",
+      "content": "提供socks5丶ss丶vless...等服务端，仅供国内点对点加密数据传输使用",
+      "sha": "ddc3826b7d0d9345717888724b09b7f8f3ea4626",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/xray.tar?ref=main"
+    },
+    {
+      "ID": 10035,
+      "name": "nodepassdash",
+      "title": "面板",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "4400",
+      "dep": "",
+      "content": "非常美观的操作界面，可以操作主控端·服务端·客户端",
+      "sha": "5a48864f37ec90b065699471d074711085e8fef8",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/nodepassdash.tar?ref=main"
+    },
+    {
+      "ID": 10036,
+      "name": "nodepass",
+      "title": "中转链路",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "2480",
+      "dep": "",
+      "content": "这是核心，默认启动主控,可实现中转链路/内网穿透/单端转发/隧道转发,更多功能在命令行实现",
+      "sha": "a3a69c083757d1277364d1be3514b2bac23e6bcb",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/nodepass.tar?ref=main"
     }
   ]
 }
