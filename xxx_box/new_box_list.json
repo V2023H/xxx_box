@@ -1338,6 +1338,19 @@
       "download": "docker run -d --name pansou -p 18181:80 -e AUTH_ENABLED=true -e AUTH_USERS=admin:password -e AUTH_TOKEN_EXPIRY=24 ghcr.io/fish2018/pansou-web"
     },
     {
+      "ID": 100,
+      "name": "vnc",
+      "title": "远程工具",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "other",
+      "size": "372",
+      "dep": "",
+      "content": "VNC是一款很实用的可以实现远程桌面控制的小工具",
+      "sha": "712cd730ff543aa045c709b6bbdb1626009b912f",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/vnc.tar?ref=main"
+    },
+    {
       "ID": 10001,
       "name": "7z",
       "title": "压缩工具",
