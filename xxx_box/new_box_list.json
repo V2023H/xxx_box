@@ -1349,6 +1349,19 @@
       "content": "VNC是一款很实用的可以实现远程桌面控制的小工具",
       "sha": "712cd730ff543aa045c709b6bbdb1626009b912f",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/vnc.tar?ref=main"
+    },,
+    {
+      "ID": 100,
+      "name": "monitor",
+      "title": "状态监控",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "other",
+      "size": "372",
+      "dep": "",
+      "content": "实时监控系统状态",
+      "sha": "712cd730ff543aa045c709b6bbdb1626009b912f",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/monitor.tar?ref=main"
     },
     {
       "ID": 10001,
