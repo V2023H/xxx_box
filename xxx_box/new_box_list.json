@@ -1351,7 +1351,7 @@
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/vnc.tar?ref=main"
     },,
     {
-      "ID": 100,
+      "ID": 101,
       "name": "monitor",
       "title": "状态监控",
       "version": "0.0.0",
