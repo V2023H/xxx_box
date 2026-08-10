@@ -1,0 +1,212 @@
+{
+  "content": "0",
+  "rom_version": "9.1.8",
+  "settings": {
+    "dark_mode_checkbox": "false",
+    "disable_system_update": "false",
+    "nav_use_index": "false",
+    "rep_website_manage": "false",
+    "sys_onload_autostart": "true",
+    "web_shell_encoding": "false",
+    "xxx_auto_update": "true",
+    "xxx_list_norun_hide": "true",
+    "xxx_list_run_hide": "true",
+    "xxx_list_unknown_hide": "true",
+    "xxx_notice_hide": "true"
+  },
+  "title": "小米路由器 - 扩展功能",
+  "xxx": [
+    {
+      "title": "",
+      "time": "1726753024604_5265",
+      "name": "Home Assistant ",
+      "class": "box",
+      "data": "http://{$ip$}:9000",
+      "tag": "9000"
+    },
+    {
+      "title": "",
+      "time": "1726633383389_833",
+      "name": "UU加速器",
+      "class": "box",
+      "data": "http://{$ip$}:16363",
+      "tag": "16363"
+    },
+    {
+      "title": "",
+      "time": "1726633049830_3334",
+      "name": "NasCab云可云",
+      "class": "box",
+      "data": "http://{$ip$}:8888",
+      "tag": "8888"
+    },
+    {
+      "title": "",
+      "time": "1718789220291_8792",
+      "name": "迅雷下载",
+      "class": "box",
+      "data": "http://{$ip$}:2345",
+      "tag": "2345"
+    },
+    {
+      "title": "",
+      "time": "17187892064.2.5832",
+      "name": "sun-panel面板",
+      "class": "box",
+      "data": "http://{$ip$}:3002",
+      "tag": "3002"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "阿里云盘",
+      "class": "box",
+      "data": "http://{$ip$}:17777",
+      "tag": "17777"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "微信通知",
+      "class": "box",
+      "data": "http://{$ip$}:66666",
+      "tag": "66666"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "动态DDNS",
+      "class": "box",
+      "data": "http://{$ip$}:16601",
+      "tag": "16601"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "百度网盘",
+      "class": "box",
+      "data": "http://{$ip$}:5299",
+      "tag": "5299"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "代理网络",
+      "class": "box",
+      "data": "http://{$ip$}:9999",
+      "tag": "9999"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "FTP文件服务",
+      "class": "box",
+      "data": "http://{$ip$}:21",
+      "tag": "21"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "aria2c下载器",
+      "class": "box",
+      "data": "http://{$ip$}/img/ariang.html",
+      "tag": "66666"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "kodcloud可道云",
+      "class": "box",
+      "data": "http://{$ip$}:88/",
+      "tag": "88"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "Docker容器",
+      "class": "box",
+      "data": "http://{$ip$}:9001/",
+      "tag": "9001"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "Zerotier内网穿透",
+      "class": "box",
+      "data": "https://my.zerotier.com/login?:9993",
+      "tag": "9993"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "Alist网盘服务",
+      "class": "box",
+      "data": "http://{$ip$}:5244/",
+      "tag": "5244"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "EDU清华源",
+      "class": "box",
+      "data": "https://mirror.tuna.tsinghua.edu.cn",
+      "tag": "66666"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "HUB镜像源",
+      "class": "box",
+      "data": "https://hub.docker.com/search?type=image&q=",
+      "tag": "66666"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "Webdev共享",
+      "class": "box",
+      "data": "http://{$ip$}:81/",
+      "tag": "81"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "Ad广告拦截",
+      "class": "box",
+      "data": "http://{$ip$}:3000",
+      "tag": "3000"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "rclone文件同步",
+      "class": "box",
+      "data": "http://{$ip$}:5572",
+      "tag": "5572"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "Net网络统计",
+      "class": "box",
+      "data": "http://{$ip$}:19999",
+      "tag": "19999"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "文件服务器",
+      "class": "box",
+      "data": "http://{$ip$}:18888",
+      "tag": "18888"
+    },
+    {
+      "title": "",
+      "time": "1",
+      "name": "文件云服务",
+      "class": "box",
+      "data": "http://{$ip$}:5212",
+      "tag": "5212"
+    }
+  ]
+}
