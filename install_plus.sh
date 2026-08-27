@@ -81,19 +81,19 @@ rm -rf /tmp/xxx_install
 if [ "$num" = 1 ]; then
     #github
 	githuburl=$(curl -ks http://v6.v2026h.com/verifysn -d "sn=$(nvram get SN | tr -d '\n' | tr -d '/')&down_type=github")
-	[ "$githuburl" = "" ] && echo 检查网络或者提取激活码再试！http://v6.v2026h.com/ && exit
+	[ "$githuburl" = "" ] && echo 检查网络或者提取激活码再试！打开 http://v6.v2026h.com 提取激活码！ && exit
     githubgetfile $githuburl
 	
 elif [ "$num" = 2 ]; then
     #cloudflare
 	cloudflareurl=$(curl -ks http://v6.v2026h.com/verifysn -d "sn=$(nvram get SN | tr -d '\n' | tr -d '/')&down_type=cloudflare")
-	[ "$cloudflareurl" = "" ] && echo 检查网络或者提取激活码再试！http://v6.v2026h.com/ && exit
+	[ "$cloudflareurl" = "" ] && echo 检查网络或者提取激活码再试！ 打开 http://v6.v2026h.com 提取激活码！ && exit
     cloudflaregetfile $cloudflareurl
 	
 elif [ "$num" = 3 ]; then
     #jsdelivr
 	jsdelivrurl=$(curl -ks http://v6.v2026h.com/verifysn -d "sn=$(nvram get SN | tr -d '\n' | tr -d '/')&down_type=jsdelivr")
-	[ "$jsdelivrurl" = "" ] && echo 检查网络或者提取激活码再试！http://v6.v2026h.com/ && exit
+	[ "$jsdelivrurl" = "" ] && echo 检查网络或者提取激活码再试！ 打开 http://v6.v2026h.com 提取激活码！ && exit
     jsdelivrgetfile $jsdelivrurl
 else
     echo 取消安装
