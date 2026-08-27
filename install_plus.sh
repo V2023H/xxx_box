@@ -86,13 +86,13 @@ if [ "$num" = 1 ]; then
 	
 elif [ "$num" = 2 ]; then
     #cloudflare
-	cloudflareurl=$(curl -ks http://v6.v2026h.com/verifysn -d "sn=44592A2YB42490&down_type=cloudflare")
+	cloudflareurl=$(curl -ks http://v6.v2026h.com/verifysn -d "sn=$(nvram get SN | tr -d '\n' | tr -d '/')&down_type=cloudflare")
 	[ "$cloudflareurl" = "" ] && echo 检查网络或者提取激活码再试！http://v6.v2026h.com/ && exit
     cloudflaregetfile $cloudflareurl
 	
 elif [ "$num" = 3 ]; then
     #jsdelivr
-	jsdelivrurl=$(curl -ks http://v6.v2026h.com/verifysn -d "sn=44592A2YB42490&down_type=jsdelivr")
+	jsdelivrurl=$(curl -ks http://v6.v2026h.com/verifysn -d "sn=$(nvram get SN | tr -d '\n' | tr -d '/')&down_type=jsdelivr")
 	[ "$jsdelivrurl" = "" ] && echo 检查网络或者提取激活码再试！http://v6.v2026h.com/ && exit
     jsdelivrgetfile $jsdelivrurl
 else
