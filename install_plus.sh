@@ -1,6 +1,6 @@
 echo 若下载缓慢可根据网络情况选择下载安装源
 echo 1.[github]' '2.[cloudflare]' '3.[jsdelivr]
-read -p "选择安装源： > " num
+read -p "选择安装源[1-3]： > " num
 function cloudflaregetfile
 {
     echo cloudflare准备下载（$num）...
