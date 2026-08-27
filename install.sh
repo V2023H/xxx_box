@@ -6,21 +6,10 @@ echo 5.普通版[jsdelivr]' '6.精简版[jsdelivr]
 read -p "选择您要安装的版本(以上版本仅下载源不同)： > " num
 function cloudflaregetfile
 {
-    echo 准备下载（$num）...
-    down_json=`curl "$1" -ks`
-    loca_file_name=`echo "$down_json" | jsonfilter -e "@.data.name"`
-    loca_file_size=`echo "$down_json" | jsonfilter -e "@.data.size"`
-    message=`echo "$down_json" | jsonfilter -e "@['message']"`
-    #检查文件信息
-    if [ -n "$loca_file_name" ]; then
-        #cloudflare直连下载文件
-        file_url=`echo "$down_json" | jsonfilter -e "@.data.raw_url"`
-        curl -ks -o /tmp/xxx_install $file_url >/dev/null 2>&1 &
-        checkfile $loca_file_size
-    else
-        echo 下载出错 $message
-        exit
-    fi
+    echo cloudflare准备下载（$num）...
+    file_url=$1
+    curl -ks -o /tmp/xxx_install $file_url >/dev/null 2>&1 &
+    checkfile 19999999
 }
 
 function githubgetfile

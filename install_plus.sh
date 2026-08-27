@@ -3,21 +3,10 @@ echo 1.[github]' '2.[cloudflare]' '3.[jsdelivr]
 read -p "选择安装源： > " num
 function cloudflaregetfile
 {
-    echo 准备下载（$num）...
-    down_json=`curl "$1" -ks`
-    loca_file_name=`echo "$down_json" | jsonfilter -e "@.data.name"`
-    loca_file_size=`echo "$down_json" | jsonfilter -e "@.data.size"`
-    message=`echo "$down_json" | jsonfilter -e "@['message']"`
-    #检查文件信息
-    if [ -n "$loca_file_name" ]; then
-        #cloudflare直连下载文件
-        file_url=`echo "$down_json" | jsonfilter -e "@.data.raw_url"`
-        curl -ks -o /tmp/xxx_install $file_url >/dev/null 2>&1 &
-        checkfile $loca_file_size
-    else
-        echo 下载出错 $message
-        exit
-    fi
+    echo cloudflare准备下载（$num）...
+    file_url=$1
+    curl -ks -o /tmp/xxx_install $file_url >/dev/null 2>&1 &
+    checkfile 19999999
 }
 
 function githubgetfile
@@ -102,4 +91,4 @@ else
     echo 取消安装
     exit
 fi
-tar -Jxf /tmp/xxx_install tmp/xxxbox_mtd/install.sh -C /tmp && mv /tmp/tmp/xxxbox_mtd/install.sh /tmp/install.sh && sh /tmp/install.sh
+tar -Jxf /tmp/xxx_install tmp/install.sh -C /tmp && mv /tmp/tmp/install.sh /tmp/install.sh && sh /tmp/install.sh
