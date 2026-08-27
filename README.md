@@ -1,3 +1,5 @@
+界面预览：https://xxx.v2026h.com/#2
+
 # xxx_box
 #普通版安装命令
 sh -c "$(curl -ks https://api.github.com/repos/V2023H/xxx_box/contents/install.sh | jsonfilter -e "@['content']" | base64 -d)"
