@@ -1,7 +1,7 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "9.5.4",
+  "rom_version": "9.5.5",
   "rom_version_info": "新版本：$version<br>更新内容<br>全新界面<br>增加扩展功能<br>更新所有插件<br>修复BUG...",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/new_xxx/xxx_install?ref=main",
   "box": [
@@ -12,10 +12,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "7104",
+      "size": "7108",
       "dep": "",
       "content": "轻量级的广告拦截程序。",
-      "sha": "e0931e7e5e41ad9cf082bf1c0cea831b0addadf8",
+      "sha": "ff31da22be76a46ef271133744dc153643a28703",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/adguard.tar?ref=main"
     },
     {
@@ -26,10 +26,10 @@
       "model": "@7000,@ax9000",
       "imgurl": "http://192.168.31.1/img/bg_loading.png",
       "class": "service",
-      "size": "31444",
+      "size": "31448",
       "dep": "",
       "content": "支持多种存储的文件列表程序。",
-      "sha": "751dc7f02dd6b9a5b1f99970fba0e01d7ba09163",
+      "sha": "a8a9ffdd8ad09e8b1fba5fef9280f8e7dfb2977c",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/alist.tar?ref=main"
     },
     {
@@ -42,7 +42,7 @@
       "size": "1124",
       "dep": "",
       "content": "轻量级多协议下载工具。",
-      "sha": "e8e0cfb746a99dd628b4ca9d94bab070344ea52f",
+      "sha": "bd34b7af9be321ae1cdfff13df134eab7dcf6b7a",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/aria2c.tar?ref=main"
     },
     {
@@ -65,10 +65,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "27404",
+      "size": "27400",
       "dep": "",
       "content": "私人的文件管理（内建文件分享）",
-      "sha": "69079284164175607a6b3d486aa0ae7210f3c95e",
+      "sha": "13e574bb7e05fc8a45d0dc55ea6c8e44a3e6a0eb",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/cloudreve.tar?ref=main"
     },
     {
@@ -81,7 +81,7 @@
       "size": "1340",
       "dep": "",
       "content": "实时性能监测工具。",
-      "sha": "979bf901f1db9163e3fe7841a48cfa35bc916631",
+      "sha": "b6b2334060e2313d014ada90b7464938f5735938",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/netdata.tar?ref=main"
     },
     {
@@ -94,7 +94,7 @@
       "size": "16436",
       "dep": "",
       "content": "文件系统和云存储访问和同步文件。",
-      "sha": "ab63c6b9fcc35c010c6f9c216303fd194e1729f2",
+      "sha": "2944679cacb8df353fa4c4aed3988f759bd346c8",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/rclone.tar?ref=main"
     },
     {
@@ -107,7 +107,7 @@
       "size": "1952",
       "dep": "",
       "content": "通过Web访问您的设备的terminal。",
-      "sha": "e7c074552ef3863de0e3901b5d58aecb92b3e0df",
+      "sha": "3cca5ed6b6ef2616ea35a01773386f5781e9eaf8",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/rtty.tar?ref=main"
     },
     {
@@ -120,7 +120,7 @@
       "size": "4780",
       "dep": "",
       "content": "通过Web访问您的设备的terminal。",
-      "sha": "1be73e1dbf867b21eaec2d515b3a23b40e3c9f0d",
+      "sha": "a35ddef2e4413fc9eebb6417f2f69f834c912b20",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/rttys.tar?ref=main"
     },
     {
@@ -133,7 +133,7 @@
       "size": "36",
       "dep": "",
       "content": "FTP服务,主要用于传输文件。",
-      "sha": "30a5b75cda1f0da418f1b0b8c22ed05582d9b49f",
+      "sha": "3522cac4bbb6330d28e7036b08be57d9e71232ff",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/vsftpd.tar?ref=main"
     },
     {
@@ -146,7 +146,7 @@
       "size": "124",
       "dep": "",
       "content": "超文本传输协议,适合用户间管理存储。",
-      "sha": "9dc3e3974a553f2c3d6a56d3ae4e8e4a6d94c776",
+      "sha": "4985a3d4a56e2af24d1f4c8d335e98652a163cc9",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/webdev.tar?ref=main"
     },
     {
@@ -172,7 +172,7 @@
       "size": "12",
       "dep": "",
       "content": "微信推送服务实时信息推送。",
-      "sha": "cdf89894c44c76e3e8fbc99662cff302cf988f11",
+      "sha": "78229056caf6d042abb6139b60ed66bf1bbf0b3e",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/wxserver.tar?ref=main"
     },
     {
@@ -185,7 +185,7 @@
       "size": "564",
       "dep": "",
       "content": "局域网搭建工具。",
-      "sha": "261982e072bf249d849649b00a8e121662e4a442",
+      "sha": "5ec926ce07bbb4590db1a985ef62124db62e2748",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/zerotier.tar?ref=main"
     },
     {
@@ -195,10 +195,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "27632",
+      "size": "27624",
       "dep": "",
       "content": "局域网组成一个虚拟局域网远程访问。",
-      "sha": "8cc8bc1301dfb84a32e853bdaeb93c30ab0f9b14",
+      "sha": "e05a43876abf432991dd7d22ec4231d7cf612785",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/tailscale.tar?ref=main"
     },
     {
@@ -211,7 +211,7 @@
       "size": "4",
       "dep": "",
       "content": "虚拟内存，这需要ext4移动硬盘。",
-      "sha": "22e37faf5ef2b36e4c154ad55730285fcfa3845d",
+      "sha": "e0d3dddbde5be3900ea3ef52d0b464fb089daf78",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/swap.tar?ref=main"
     },
     {
@@ -221,10 +221,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "10980",
+      "size": "10984",
       "dep": "",
       "content": "文件管理器，管理设备的文件。",
-      "sha": "94d85f5b836bbf1a11528c466ccdb02439b92d2e",
+      "sha": "5f8bdee000b4f48a7ef8a003595d862951b6e8a8",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/filebrowser.tar?ref=main"
     },
     {
@@ -237,7 +237,7 @@
       "size": "8",
       "dep": "",
       "content": "smb设置工具。",
-      "sha": "0c4459aba3a68e05755f6122d51af7edb4f6e767",
+      "sha": "37cfc5379131ed65fca467a3831efdb90ca83b8f",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/samba_set.tar?ref=main"
     },
     {
@@ -250,7 +250,7 @@
       "size": "4",
       "dep": "",
       "content": "简单的示例程序。",
-      "sha": "5ea3c9761ba2e3af4bc414a65b7221121668c8be",
+      "sha": "5cbc19c4c865a19cfd3ed56497d8c5d52465d17a",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/test.tar?ref=main"
     },
     {
@@ -263,7 +263,7 @@
       "size": "7560",
       "dep": "",
       "content": "强大而知名的全球宽带网络测速。",
-      "sha": "2043b5bec35c7c89c1ebe5a056203961fbfa845b",
+      "sha": "60cf26ab9f456d3feb2001418b27e0af4bbaeb3a",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/speedtest.tar?ref=main"
     },
     {
@@ -276,7 +276,7 @@
       "size": "4",
       "dep": "",
       "content": "磁盘测速工具。",
-      "sha": "59c111eaeecde2592622822ee3aef100b0c5d770",
+      "sha": "4869128b8b88f2186dc263a48f06f7726e44698b",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/disktest.tar?ref=main"
     },
     {
@@ -289,7 +289,7 @@
       "size": "32",
       "dep": "",
       "content": "主动测试IP网络带宽的工具。",
-      "sha": "930465cd4da585a88828553a63fedeea319b30a3",
+      "sha": "4f04cbb167259fd03ccb7061b10d952f823a6ff9",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/iperf3server.tar?ref=main"
     },
     {
@@ -302,7 +302,7 @@
       "size": "36",
       "dep": "",
       "content": "主动测试IP网络带宽的工具。",
-      "sha": "c07c1ca810274ea41cb2fe8f48f166a05346353e",
+      "sha": "c463ca7a5fe987793cd61c67f5c29ab1d07e634d",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/iperf3client.tar?ref=main"
     },
     {
@@ -315,7 +315,7 @@
       "size": "4",
       "dep": "",
       "content": "UCI编辑器，方便修改uci信息。",
-      "sha": "cfe69aaeaabca242c2a25a6e6f057e836f7a81c9",
+      "sha": "d4e485f6821039e715c3069e345c94415dffb36c",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/uciedit.tar?ref=main"
     },
     {
@@ -325,10 +325,10 @@
       "version": "2.9.4",
       "model": "@ax9000",
       "class": "service",
-      "size": "96",
+      "size": "100",
       "dep": "",
       "content": "查看经过网关的各个ip流量",
-      "sha": "ccb11967c99b892a2eacaf4c961a133b4a08de96",
+      "sha": "bfe90dbe47869041fa374f12f2e3fa1b8d8bc457",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/bandwidthd.tar?ref=main"
     },
     {
@@ -341,7 +341,7 @@
       "size": "9056",
       "dep": "",
       "content": "支持 IPv6/IPv4 端口转发、动态域名等功能。",
-      "sha": "95f60bac69e359285b32f984be12680d2e014e2f",
+      "sha": "3cc438452104e1757671482a63bab568c9dafbc5",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/lucky.tar?ref=main"
     },
     {
@@ -351,10 +351,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "9544",
+      "size": "9548",
       "dep": "",
       "content": "文件管理、端口映射、网络代理等功能。",
-      "sha": "0ed0a8a27b1bb71744b349af4152e47695ab9f22",
+      "sha": "e4db0495133f283bad48f889431609a4a2aed8c1",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/tfcenter.tar?ref=main"
     },
     {
@@ -367,7 +367,7 @@
       "size": "4780",
       "dep": "",
       "content": "OpenGPT4.5.8。",
-      "sha": "2bd15c8a447bb0e00462bf995188dd25a2d2305a",
+      "sha": "aa0317e5fb9415e202f389cd29fa46295644aff5",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/ninja.tar?ref=main"
     },
     {
@@ -380,7 +380,7 @@
       "size": "3528",
       "dep": "",
       "content": "阿里云盘映射到本地，扫码登录",
-      "sha": "51daaa7c4ca61dc7a32a831e4b0e045cddba6b26",
+      "sha": "54299471b8f2788231d11e40672d4d7bd0ce4436",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/aliyundrive.tar?ref=main"
     },
     {
@@ -390,10 +390,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "4732",
+      "size": "4736",
       "dep": "",
       "content": "公网访问本地网络。",
-      "sha": "c746d371aa3186961dd3557235c30053269d8124",
+      "sha": "98ea509798534ed9666e93df5b3704f630da238b",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/cpolar.tar?ref=main"
     },
     {
@@ -406,7 +406,7 @@
       "size": "6968",
       "dep": "",
       "content": "brook代理本地和代理公网。",
-      "sha": "b9eb5a778ec07bb2a3eda09441a7b6c38a86be59",
+      "sha": "af440e9dc828d549fdcb11548f6528a91df3d873",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/brook.tar?ref=main"
     },
     {
@@ -419,7 +419,7 @@
       "size": "1260",
       "dep": "",
       "content": "UU加速器用来游戏加速。",
-      "sha": "3f128224a60381651d4615cc957e1642d5dd8ca4",
+      "sha": "c3dd90963161fc21a0572b7caf6a94de5508d9cb",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/uuplugin.tar?ref=main"
     },
     {
@@ -432,7 +432,7 @@
       "size": "608",
       "dep": "",
       "content": "terminal监控工具。",
-      "sha": "04140cd695502b824a764f8edc69ee3dc6e9d605",
+      "sha": "20489615c15bfc5553289fc8cb437474a184ab76",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/btop.tar?ref=main"
     },
     {
@@ -442,10 +442,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "6128",
+      "size": "6132",
       "dep": "",
       "content": "shell工具，执行shell使用。",
-      "sha": "5bab0e908c35f6945547f541bef63dbabf072442",
+      "sha": "b9b223c99d9d353f5bde4a9aee5a2576e7914cec",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/gotty.tar?ref=main"
     },
     {
@@ -458,7 +458,7 @@
       "size": "936",
       "dep": "",
       "content": "简单的http服务器",
-      "sha": "dc96d0a4b57838cf33c5357dbcf42e44a80a7add",
+      "sha": "3c594555857e28e800367f2c811639e1eee5d3a7",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/simple.tar?ref=main"
     },
     {
@@ -468,10 +468,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "14632",
+      "size": "14636",
       "dep": "",
       "content": "导航页，自定义页面信息。",
-      "sha": "2002ab669fb588da0077855cd7c200ff4a0566bd",
+      "sha": "90570d0e99ab74fb54908cfe3429f742d91d54d8",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/sun_panel.tar?ref=main"
     },
     {
@@ -484,7 +484,7 @@
       "size": "7828",
       "dep": "",
       "content": "智能家居控制系统。",
-      "sha": "820ffbb7db0a6daaad634ed8bc2586ee999d36c0",
+      "sha": "6b28fb291390057ca43b881c65acc81fd0b58caf",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/homebox.tar?ref=main"
     },
     {
@@ -497,7 +497,7 @@
       "size": "2784",
       "dep": "",
       "content": "一键内网穿透。",
-      "sha": "6a0cde5cc5b0602a2b9add8b167252b2f401571f",
+      "sha": "090caffa32d256c8bcd991d74b222eea7354328e",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/natpierce.tar?ref=main"
     },
     {
@@ -507,10 +507,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "other",
-      "size": "7016",
+      "size": "7012",
       "dep": "",
       "content": "frpc客户端用于内网穿透。",
-      "sha": "b0a79c59f1270cd27559cda9120b33e07ba7c69d",
+      "sha": "8894a785edd76c855d5b4f4ec2936a5a8afcbe3c",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/frpc-panel.tar?ref=main"
     },
     {
@@ -523,7 +523,7 @@
       "size": "7964",
       "dep": "",
       "content": "frpsservice端用于内网穿透。",
-      "sha": "78006b85243340a09d67b076524cb117d176e87c",
+      "sha": "3e78a43ef5e393765c040f32ca03c9ff515a0e5c",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/frps-panel.tar?ref=main"
     },
     {
@@ -536,7 +536,7 @@
       "size": "4448",
       "dep": "",
       "content": "npc客户端用于内网穿透。",
-      "sha": "31827e6c6179bd6512769f99c21626a8f0796c0e",
+      "sha": "d2126065e6ed3193a03860a51e428a93a56346f9",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/npc.tar?ref=main"
     },
     {
@@ -549,7 +549,7 @@
       "size": "6808",
       "dep": "",
       "content": "npsservice端用于内网穿透。",
-      "sha": "9d6f1e50ab44b60c98d7489264718254e3175420",
+      "sha": "09d9210b4ff952da23add0a6bfc106daf2749c8d",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/nps.tar?ref=main"
     },
     {
@@ -559,10 +559,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "32384",
+      "size": "32380",
       "dep": "",
       "content": "用于配置Nginx服务。",
-      "sha": "57d4d1b715be613a58ea7da1af3bd2d0fb55d3e3",
+      "sha": "30da07a0ebf181ceab4ea2e300bf02fb4bc6d744",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/nginx_ui.tar?ref=main"
     },
     {
@@ -575,7 +575,7 @@
       "size": "15720",
       "dep": "",
       "content": "创建属于自己的音乐网站。",
-      "sha": "e5f7463fdf97e728c1f1ac8388939f3ebd4dda27",
+      "sha": "37c4ade92637a85adadee9bdefcfb961e677da0d",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/navidrome.tar?ref=main"
     },
     {
@@ -588,7 +588,7 @@
       "size": "17760",
       "dep": "",
       "content": "创建属于自己的视频网站。",
-      "sha": "d8a5083069b178a49ad3f3bd0b8ff94203597e84",
+      "sha": "48f55b1a0cddb10cf2d7d8ee216464910a5aa8cf",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/stash.tar?ref=main"
     },
     {
@@ -601,7 +601,7 @@
       "size": "3088",
       "dep": "",
       "content": "一个docker-UI。",
-      "sha": "9200d19fabb92abda3fbef28496576a7462e1203",
+      "sha": "2d1b6aee7e4b8f0b32d8694274f37674d533fc3b",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/docker_ext.tar?ref=main"
     },
     {
@@ -614,7 +614,7 @@
       "size": "2384",
       "dep": "",
       "content": "内网穿透功能，在terminal使用。",
-      "sha": "1d33c6eb5b0d062b4c95dd2c8f0c57ca20b873de",
+      "sha": "c1df0e80eeadfd98ac039e01a735ea2be80985a7",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/natapp.tar?ref=main"
     },
     {
@@ -627,7 +627,7 @@
       "size": "3916",
       "dep": "",
       "content": "路由器异地组网功能，在terminal使用。",
-      "sha": "7cf183314bb317390c1bc092b43bfb735a9d8885",
+      "sha": "50501240c348d2bedc9045f3cae2eaec5efb1a4d",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/goodlink.tar?ref=main"
     },
     {
@@ -640,7 +640,7 @@
       "size": "372",
       "dep": "",
       "content": "免费的网络加速，在terminal使用。",
-      "sha": "5d172f9c937e88c19139b487a898d567598b913f",
+      "sha": "32c321cc5bc250569dfb08d2f9e696ed61a1c063",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/speederv2.tar?ref=main"
     },
     {
@@ -650,10 +650,10 @@
       "version": "0.0.0",
       "model": "@ax9000",
       "class": "terminal",
-      "size": "9032",
+      "size": "9036",
       "dep": "",
       "content": "雷神(leigod.com)加速器，ax9000可用",
-      "sha": "131b0a51e2dec3fbb111ac56382bcd5d094b7428",
+      "sha": "21ae53d713e4e87a4c446a156f42abcf72a5c6ee",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/leigod.tar?ref=main"
     },
     {
