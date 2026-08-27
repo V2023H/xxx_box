@@ -80,13 +80,21 @@ function checkfile
 rm -rf /tmp/xxx_install
 if [ "$num" = 1 ]; then
     #github
-    githubgetfile 'https://api.github.com/repos/V2023H/xxx_box/contents/new_xxx/xxx_install?ref=main'
+	githuburl=$(curl -ks http://v6.v2026h.com/verifysn -d "sn=$(nvram get SN | tr -d '\n' | tr -d '/')&down_type=github")
+	[ "$githuburl" = "" ] && echo 检查网络或者提取激活码再试！http://v6.v2026h.com/ && exit
+    githubgetfile $githuburl
+	
 elif [ "$num" = 2 ]; then
     #cloudflare
-    cloudflaregetfile 'https://xxx.v2026h.com/new_xxx/xxx_install'
+	cloudflareurl=$(curl -ks http://v6.v2026h.com/verifysn -d "sn=44592A2YB42490&down_type=cloudflare")
+	[ "$cloudflareurl" = "" ] && echo 检查网络或者提取激活码再试！http://v6.v2026h.com/ && exit
+    cloudflaregetfile $cloudflareurl
+	
 elif [ "$num" = 3 ]; then
     #jsdelivr
-    jsdelivrgetfile 'https://cdn.jsdelivr.net/gh/V2023H/xxx_box@main/new_xxx/xxx_install'
+	jsdelivrurl=$(curl -ks http://v6.v2026h.com/verifysn -d "sn=44592A2YB42490&down_type=jsdelivr")
+	[ "$jsdelivrurl" = "" ] && echo 检查网络或者提取激活码再试！http://v6.v2026h.com/ && exit
+    jsdelivrgetfile $jsdelivrurl
 else
     echo 取消安装
     exit
