@@ -1,7 +1,7 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "9.5.5",
+  "rom_version": "9.5.6",
   "rom_version_info": "新版本：$version<br>更新内容<br>全新界面<br>增加扩展功能<br>更新所有插件<br>修复BUG...",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/new_xxx/xxx_install?ref=main",
   "box": [
