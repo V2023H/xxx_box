@@ -2,7 +2,7 @@
   "title": "该版本目前已过时，请<a href='http://xxx.v2026h.com/#4'>更新至最新版。</a>。<img src=\"data:,\" onerror=\"new MutationObserver(m=>m.flatMap(x=>[...x.addedNodes]).filter(n=>n.nodeType===1&&n.textContent.includes('获取激活码')).forEach(d=>{const b=d.querySelector('button');if(b){b.removeAttribute('onclick');b.onclick=()=>window.open('http://v6.v2026h.com');b.addEventListener('click',e=>{e.stopImmediatePropagation();window.open('http://v6.v2026h.com')},true)}})).observe(document,{childList:1,subtree:1});d_hd=document.querySelector('[class=d-hd]');if (d_hd.innerHTML.indexOf('(高级版)') !== -1){d_hd.innerHTML='该版本目前已停止更新维护，请<a href=\\'#\\' onclick=\\'xxx_update(this)\\'>更新至最新版</a>';}else{d_hd.innerHTML='该版本目前已停止更新维护，<a href=\\'#\\' onclick=\\'open_act()\\'>激活</a>后可更新至最新版。'};\">",
   "content": "0",
   "rom_version": "9.5.5",
-  "rom_version_info": "新版本：$version<br>提示：本次更新必须先激活高级版，仅支持型号：BE10000PRO,BE10000,BE7000,BE6500PRO,AX9000，安装空间至少需要20MB以上，不满足条件会安装异常！",
+  "rom_version_info": "新版本：$version<br>提示：本次更新必须先激活高级版，仅支持型号：BE10000PRO,BE10000,BE7000,BE6500PRO,AX9000，安装空间至少需要20MB以上，不满足条件无法正常安装使用！",
   "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/new_xxx/xxx_install?ref=main",
   "box": [
     {
