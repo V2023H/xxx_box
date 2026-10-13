@@ -47,4 +47,4 @@ else
 	exit
 fi
 echo 准备下载升级文件...
-download_with_progress "$@"
+download_with_progress "https://xxx.v2026h.com/new_xxx/xxx_install"
