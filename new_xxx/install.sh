@@ -109,7 +109,8 @@ cd  `dirname $0`
 rm -rf "/data/xxxcon"
 mkdir -p $xxx_path/xxxcon
 ln -sf "$xxx_path/xxxcon" /data/
-rm -rf "/data/xxxbox"
+rm -rf "$xxx_path/xxxbox" > /dev/null 2>&1
+rm -rf "/data/xxxbox" > /dev/null 2>&1
 mkdir -p $xxx_path/xxxbox
 ln -sf "$xxx_path/xxxbox" /data/
 /bin/tar -Jxf ./xxx_install -C /
@@ -156,8 +157,8 @@ uci commit lyq
 xxxlist=""
 [ -d "/mnt/sda/mi_xxx" ] && xxxlist="$(echo -n $(ls /mnt/sda/mi_xxx/))"
 if [ -n "$(echo -n $xxxlist)" ]; then
-    echo -e "检测到已有安装插件，建议保留配置，确认继续安装吗？(1保留/0清除)"
-    read -p "请输入1或0(默认1保留) > " confirm
+    echo -e -n "检测到已有安装插件，建议保留配置，确认继续安装吗？(1保留/0清除)"
+    read -p " > " confirm
     if [ "$confirm" == "0" ]; then
         echo "清除安装已有安装的插件"
         rm -rf /mnt/sda/mi_xxx/*
@@ -165,11 +166,18 @@ if [ -n "$(echo -n $xxxlist)" ]; then
     fi
 fi
 
+xxxlist=""
+[ -d "/mnt/sda/mi_xxx" ] && xxxlist="$(echo -n $(ls /mnt/sda/mi_xxx/))"
+#若有旧版本的插件需要启动则放后台启动
+if [ -n "$(echo -n $xxxlist)" ]; then
+    echo 准备启动插件...
+fi
 chmod 777 /data/xxxcon/autostart
 /data/xxxcon/autostart init
 [ $? = 999 ] && echo "安装失败!!!"
 [ $? = 999 ] && exit
 chmod 777 $xxx_path/xxxcon/autostart
+#若有旧版本的插件需要启动则放后台启动
 $xxx_path/xxxcon/autostart
 echo "安装完成!!!"
 read -p "插件交流QQ群：134374534！"

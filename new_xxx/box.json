@@ -1,9 +1,9 @@
 {
   "title": "小米路由器 - 软件中心",
   "content": "0",
-  "rom_version": "9.5.6",
-  "rom_version_info": "新版本：$version<br>更新内容<br>全新界面<br>增加扩展功能<br>更新所有插件<br>修复BUG...",
-  "down_xxx_url":"https://api.github.com/repos/V2023H/xxx_box/contents/new_xxx/xxx_install?ref=main",
+  "rom_version": "9.6.6",
+  "rom_version_info": "新版本：$version 更新内容<br>新增16个插件<br>优化6个插件<br>加入无线增强功能<br>修复已知bug<br>9.5.5更新内容<br>全新界面<br>增加扩展功能<br>更新所有插件<br>修复BUG...",
+  "down_xxx_url": "https://api.github.com/repos/V2023H/xxx_box/contents/new_xxx/xxx_install?ref=main",
   "box": [
     {
       "ID": 1,
@@ -875,7 +875,7 @@
       "size": "3712",
       "dep": "",
       "content": "来自群友小米BE7000分享的异地组网功能。",
-      "sha": "f71355089d6703c7c5d6280483d6ab68db3c8a54",
+      "sha": "56e723bdf16db5268c5da369a74f54e0a6ed0b73",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/easytier.tar?ref=main"
     },
     {
@@ -1305,11 +1305,37 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "other",
-      "size": "372",
+      "size": "5676",
       "dep": "",
       "content": "VNC是一款很实用的可以实现远程桌面控制的小工具",
-      "sha": "712cd730ff543aa045c709b6bbdb1626009b912f",
+      "sha": "1bd1e6c2058d5f8f6e5045ed93454a695e9f8385",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/vnc.tar?ref=main"
+    },
+    {
+      "ID": 101,
+      "name": "vnt",
+      "title": "VNT异地组网",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "other",
+      "size": "1272",
+      "dep": "",
+      "content": "来自群友",
+      "sha": "a8a93391f3975c1aa048b6bf488ad6e00de6a4c4",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/vnt.tar?ref=main"
+    },
+    {
+      "ID": 102,
+      "name": "monitor",
+      "title": "状态监控",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "other",
+      "size": "20",
+      "dep": "",
+      "content": "来自群友，监控系统和硬件信息",
+      "sha": "9598ca94d5eb82bdad4abfaee8dd2b4f1c454035",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/monitor.tar?ref=main"
     },
     {
       "ID": 10001,
@@ -1321,7 +1347,7 @@
       "size": "1104",
       "dep": "",
       "content": "压缩解压工具，在terminal使用。",
-      "sha": "f537f875fc78d85df102b81fc763aed9e85252ed",
+      "sha": "cef77613ac61b84a04e4f56c0798bdd65c42603a",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/7z.tar?ref=main"
     },
     {
@@ -1334,7 +1360,7 @@
       "size": "128",
       "dep": "",
       "content": "磁盘管理工具，可以管理磁盘分区。",
-      "sha": "5ab902091d35ffd53f73c970b9eb2fafdb7d571d",
+      "sha": "a019ef5054baeee6133e1bb33a7e4e3974826715",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/cfdisk.tar?ref=main"
     },
     {
@@ -1607,7 +1633,7 @@
       "size": "32",
       "dep": "",
       "content": "迅雷的快鸟提速功能，部分地区支持宽带提速。",
-      "sha": "c827f50e385de59207b5dca3cc7ae8d6b9ad0d4c",
+      "sha": "bcec6f4ec8ac6b96fc13f442b0c4ad9f059b7904",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/broadband.tar?ref=main"
     },
     {
@@ -1630,10 +1656,10 @@
       "version": "0.0.0",
       "model": "@7000,@ax9000",
       "class": "service",
-      "size": "16580",
+      "size": "3296",
       "dep": "",
       "content": "支持内网穿透，DDNS，服务器监控",
-      "sha": "ec3c9b6da7f953975003c2087b02cbc6c66cd979",
+      "sha": "f9098f1d7fb90b07cf4a6eee6ec111091dfa5e58",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/dashboard.tar?ref=main"
     },
     {
@@ -1724,7 +1750,7 @@
       "size": "3128",
       "dep": "",
       "content": "一个非常简单的Docker状态查看和管理工具",
-      "sha": "45b5ad7e010a64721c5208afee5f4e528b705b04",
+      "sha": "139b2ad60c6f7bcbadc07c840600eb9814d2db44",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/ctop.tar?ref=main"
     },
     {
@@ -1737,7 +1763,7 @@
       "size": "484",
       "dep": "",
       "content": "一个监测接口状态的工具,可接口实时网络速度",
-      "sha": "60a7925fdcc52796b0feee7d0e607c35da475ec8",
+      "sha": "e4f12b42e9bc150bbceeb6f7901971d4ecb628ee",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/bmon.tar?ref=main"
     },
     {
@@ -1778,6 +1804,214 @@
       "content": "这是核心，默认启动主控,可实现中转链路/内网穿透/单端转发/隧道转发,更多功能在命令行实现",
       "sha": "99bf85dc37ad90fda0d03a014f1fd7c58d8cecdd",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/nodepass.tar?ref=main"
+    },
+    {
+      "ID": 10037,
+      "name": "sublinkX",
+      "title": "订阅管理",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "6716",
+      "dep": "",
+      "content": "订阅管理软件",
+      "sha": "30233d17832707946abe5d23ccd41754be4fc62c",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/sublinkX.tar?ref=main"
+    },
+    {
+      "ID": 10038,
+      "name": "yazi",
+      "title": "终端文件",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "terminal",
+      "size": "3984",
+      "dep": "",
+      "content": "终端文件管理工具",
+      "sha": "fbca86f56c20d36f8e192e6d910235d0821ef8f1",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/yazi.tar?ref=main"
+    },
+    {
+      "ID": 10039,
+      "name": "iptv_server",
+      "title": "Iptv管理",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "8948",
+      "dep": "",
+      "content": "Iptv管理工具",
+      "sha": "e79ce9462222d4f1dbbceaaae22938e366f0e051",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/iptv_server.tar?ref=main"
+    },
+    {
+      "ID": 10040,
+      "name": "vps_panel",
+      "title": "vps面板",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "4804",
+      "dep": "",
+      "content": "vps管理工具",
+      "sha": "ce1c467c244ee65ffdbd35bd85e558cce1a3e344",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/vps_panel.tar?ref=main"
+    },
+    {
+      "ID": 10041,
+      "name": "speed_backend",
+      "title": "本地测速",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "6792",
+      "dep": "",
+      "content": "测试本地设备和路由器之间的网络速度",
+      "sha": "de68beaa0712fdffbcd040fc6e45868295092c0b",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/speed_backend.tar?ref=main"
+    },
+    {
+      "ID": 10042,
+      "name": "rtp2httpd",
+      "title": "IPTV流媒体",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "588",
+      "dep": "",
+      "content": "IPTV 流媒体转发服务器",
+      "sha": "e39e30acc1824fdee59bc7348edde062fcb7b675",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/rtp2httpd.tar?ref=main"
+    },
+    {
+      "ID": 10043,
+      "name": "flatnas",
+      "title": "轻量导航",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "68792",
+      "dep": "",
+      "content": "FlatNas 是一个轻量级、高度可定制的个人导航页与仪表盘系统",
+      "sha": "9451ad0e1e51e9aa31e1d4dd5eb75a22adcdca66",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/flatnas.tar?ref=main"
+    },
+    {
+      "ID": 10044,
+      "name": "win_sshpass",
+      "title": "WEB终端",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "3116",
+      "dep": "",
+      "content": "win-sshpass 是一个专为 AI 自动化设计的客户端",
+      "sha": "d52d686e6b81c1f85b2f1b65b3a69164b5f29881",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/win_sshpass.tar?ref=main"
+    },
+    {
+      "ID": 10045,
+      "name": "linkstar",
+      "title": "穿透导航",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "5360",
+      "dep": "",
+      "content": "一站式管理网络、域名、证书与服务，让一切安全、稳定、简单",
+      "sha": "edbc85f356b5f58bcbcde3a24b9d209028da3272",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_tar/linkstar.tar?ref=main"
+    },
+    {
+      "ID": 10046,
+      "name": "pushgo_gateway",
+      "title": "消息推送",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "other",
+      "size": "5340",
+      "dep": "",
+      "content": "这是网关，用于将消息推送到安卓或苹果设备。",
+      "sha": "e3446bd3bc08e5d1a7e7ccf9b0a2d7cf4bf8613d",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/pushgo_gateway.tar?ref=main"
+    },
+    {
+      "ID": 10047,
+      "name": "witr",
+      "title": "进程信息",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "terminal",
+      "size": "1796",
+      "dep": "",
+      "content": "这是一条命令、机器可读的 JSON 或交互式图形用户界面。",
+      "sha": "3efa912a029b2a7a5bf4a4e79f1bfe66d4506d84",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/witr.tar?ref=main"
+    },
+    {
+      "ID": 10048,
+      "name": "GoWebSSH",
+      "title": "ssh工具",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "4280",
+      "dep": "",
+      "content": "Web版ssh客户端 + (sshd,sftp)服务端实现。",
+      "sha": "381784383858f550e8d70a50a528ca036c22c793",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/GoWebSSH.tar?ref=main"
+    },
+    {
+      "ID": 10049,
+      "name": "hetty",
+      "title": "拦截封包",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "3868",
+      "dep": "",
+      "content": "Hetty 是一款用于安全研究的 HTTP 工具包",
+      "sha": "64166f00c14422e12ebda527828386913afdf16a",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/hetty.tar?ref=main"
+    },
+    {
+      "ID": 10050,
+      "name": "lazyrsync",
+      "title": "终端同步",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "terminal",
+      "size": "656",
+      "dep": "",
+      "content": "rsync是终端界面—可管理可复用的配置文件",
+      "sha": "47c165f29d8c15c3f812380737626e6b28e2f67d",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/lazyrsync.tar?ref=main"
+    },
+    {
+      "ID": 10051,
+      "name": "gatus",
+      "title": "仪表盘",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "19040",
+      "dep": "",
+      "content": "Gatus 是一款面向开发者的健康仪表盘，可让您通过 HTTP、ICMP、TCP 甚至 DNS 查询来监控您的服务",
+      "sha": "d8473ee3e7be3361f3e86d018da20b932bae73b4",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/gatus.tar?ref=main"
+    },
+    {
+      "ID": 10052,
+      "name": "localsend",
+      "title": "文件传输",
+      "version": "0.0.0",
+      "model": "@7000,@ax9000",
+      "class": "service",
+      "size": "4156",
+      "dep": "",
+      "content": "LocalSend是可让您通过本地网络安全地与附近设备共享文件和消息，无需互联网连接。",
+      "sha": "34bd5ec09f1a69a4d3306d5ac56781c2d7a728f4",
+      "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/localsend.tar?ref=main"
     }
   ]
 }
