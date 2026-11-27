@@ -185,7 +185,7 @@
       "size": "564",
       "dep": "",
       "content": "局域网搭建工具。",
-      "sha": "d98ca658c6ddca3e999ce104f2743d44137d5ac5",
+      "sha": "2d6a9a4e243457798a87edaaef6c68d638c551d2",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/zerotier.tar?ref=main"
     },
     {
@@ -325,10 +325,10 @@
       "version": "2.9.4",
       "model": "@ax9000",
       "class": "service",
-      "size": "100",
+      "size": "96",
       "dep": "",
       "content": "查看经过网关的各个ip流量",
-      "sha": "bfe90dbe47869041fa374f12f2e3fa1b8d8bc457",
+      "sha": "9c16fc22336cf768fc9a25a2f361cdfb5c0addc9",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/bandwidthd.tar?ref=main"
     },
     {
@@ -1334,7 +1334,7 @@
       "size": "8",
       "dep": "",
       "content": "来自群友，监控系统和硬件信息",
-      "sha": "d5e710cbad43aafe54f0a50267982a72aae731d3",
+      "sha": "54025851fba3fe1cf708d82ab6ad3746e1b04bb3",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/monitor.tar?ref=main"
     },
     {
@@ -1581,7 +1581,7 @@
       "size": "2656",
       "dep": "",
       "content": "网络唤醒功能，若需唤醒请先在插件页添加设备。",
-      "sha": "9ce9e3a55f70475901d00e8afa768838dbe8dd70",
+      "sha": "3ebc775307865b7cb00669bd5b68b8e173188881",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/wol.tar?ref=main"
     },
     {
@@ -1633,7 +1633,7 @@
       "size": "32",
       "dep": "",
       "content": "迅雷的快鸟提速功能，部分地区支持宽带提速。",
-      "sha": "bcec6f4ec8ac6b96fc13f442b0c4ad9f059b7904",
+      "sha": "5c6879b23f932154959d00018257ae8cde44672d",
       "download": "https://api.github.com/repos/V2023H/xxx_box/contents/new_box/broadband.tar?ref=main"
     },
     {
