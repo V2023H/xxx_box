@@ -53,7 +53,11 @@ echo -----------------------------------------------
 echo -e "推荐安装至USB空间，系统空间普遍较小，推荐使用ext4或ubifs文件系统。"
 echo -e "请选择安装位置 (默认1)"
 echo -e "$path_str" | sed "s/ //g"
-read -p "请输入对应数字 > " path_num
+if [ "$1" = "auto_install" ]; then
+	path_num=$(printf "%s\n" "$path_str" | awk '/\/mnt|\/extdisks/ && /ext4/ {print NR; exit}')
+else
+    read -p "请输入对应数字 > " path_num
+fi
 echo -----------------------------------------------
 [ "$path_num" = "" ] && path_num=1
 [ "$path_num" = "0" ] && path_num=$(echo "$path_str" | wc -l)
@@ -129,7 +133,11 @@ elif [ -n "$(uci -q get misc.hardware.model | grep -i rd08)" ]; then #BE6500PRO
 else #其他
     num_d=1
 fi
-read -p "建议：小米be系列选择1，其他型号选择2，按其他任意键结束安装 (默认$num_d) > " num
+if [ "$1" = "auto_install" ]; then
+	num=1
+else
+	read -p "建议：小米be系列选择1，其他型号选择2，按其他任意键结束安装 (默认$num_d) > " num
+fi
 if [ "$num" = 1 ]; then
     num=1
 elif [ "$num" = 2 ]; then
@@ -157,8 +165,12 @@ uci commit lyq
 xxxlist=""
 [ -d "/mnt/sda/mi_xxx" ] && xxxlist="$(echo -n $(ls /mnt/sda/mi_xxx/))"
 if [ -n "$(echo -n $xxxlist)" ]; then
-    echo -e -n "检测到已有安装插件，建议保留配置，确认继续安装吗？(1保留/0清除)"
-    read -p " > " confirm
+    echo -e -n "检测到已有安装插件，建议保留配置，确认继续安装吗？(默认1保留/0清除)"
+	if [ "$1" = "auto_install" ]; then
+		confirm=1
+	else
+		read -p " > " confirm
+	fi
     if [ "$confirm" == "0" ]; then
         echo "清除安装已有安装的插件"
         rm -rf /mnt/sda/mi_xxx/*
@@ -170,7 +182,8 @@ xxxlist=""
 [ -d "/mnt/sda/mi_xxx" ] && xxxlist="$(echo -n $(ls /mnt/sda/mi_xxx/))"
 #若有旧版本的插件需要启动则放后台启动
 if [ -n "$(echo -n $xxxlist)" ]; then
-    echo 准备启动插件...
+    echo ""
+    echo "准备启动插件..."
 fi
 chmod 777 /data/xxxcon/autostart
 /data/xxxcon/autostart init
@@ -180,5 +193,7 @@ chmod 777 $xxx_path/xxxcon/autostart
 #若有旧版本的插件需要启动则放后台启动
 $xxx_path/xxxcon/autostart
 echo "安装完成!!!"
-read -p "插件交流QQ群：134374534！"
+if [ ! "$1" = "auto_install" ]; then
+	read -p "插件交流QQ群：134374534！"
+fi
 rm -rf /tmp/tmp/xxx_install > /dev/null 2>&1
